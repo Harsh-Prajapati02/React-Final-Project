@@ -1,0 +1,745 @@
+/* Navbar */
+.navlink {
+  color: #303233;
+  text-decoration: none;
+  font-size: 14px;
+  /* border-bottom: 2px solid #fff; */
+  transition: all 0.4s;
+}
+
+/* .navlink:hover {
+  border-bottom: 2px solid #303233;
+} */
+
+.store {
+  display: inline-block;
+  color: #3b3e40;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* Header */
+.link {
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  font-weight: 500;
+  text-decoration: none;
+  letter-spacing: -.02em;
+  color: rgba(0, 0, 0, .85);
+  transition: all 0.2s;
+}
+
+.link:hover {
+  color: #1890ff;
+}
+
+/* Hero Card */
+.hero-card-img {
+  height: 32px;
+}
+
+.hero-card-title h1 {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 48px;
+  line-height: 52px;
+  font-weight: 600;
+  letter-spacing: -.03em;
+}
+
+.hero-card-title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.65);
+  letter-spacing: -.03em;
+}
+
+.hero-card-banner {
+  background-image: url(https://dji-official-fe.djicdn.com/dps/cbe372f1d658e3acef76150c40bb8ef2@origin.jpg);
+  height: 640px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.hero-card-banner span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgba(255, 255, 255, 0.45);
+}
+
+.hero-card-banner p {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero-card-banner a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-card-banner a:hover {
+  text-decoration: underline;
+}
+
+/* Card Wrappers */
+.card-wrapper {
+  height: 610px;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-wrapper-img {
+  height: 28px;
+}
+
+.card-wrapper span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: rgb(190, 78, 4);
+  max-width: 693px;
+  letter-spacing: -.03em;
+}
+
+.card-wrapper p {
+  color: #000000d9;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.card-wrapper a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.card-wrapper a:hover {
+  text-decoration: underline;
+}
+
+/* Quiz Camera Drones */
+.quiz-drone-content h2 {
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 600;
+  letter-spacing: -0.03em;
+  color: rgba(0, 0, 0, 0.85);
+}
+
+.quiz-drone-content p {
+  color: #000000a6;
+}
+
+.quiz-drone-content button {
+  transition: all .3s ease;
+  height: 48px;
+  background-color: #0070d5;
+  border: none;
+  border-radius: 99px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: -.02em;
+  color: #fff;
+  width: 22%;
+}
+
+.quiz-drone-img {
+  background-image: url(https://dji-official-fe.djicdn.com/dps/c202f7d4e20407d8fadaeec761ff194d.jpg);
+  height: 480px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Comparison Section */
+.comparison-drone-img {
+  height: 240px;
+}
+
+.comparison-section h1 {
+  color: #000000d9;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+
+.comparison-section button {
+  color: #000000a6;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: -.02em;
+  height: 48px;
+}
+
+.comparison-section .nav-link {
+  border: none;
+  color: #000000d9;
+}
+
+.comparison-drone span {
+  font-size: 12px;
+  text-align: center;
+  line-height: 16px;
+  letter-spacing: -.02em;
+  color: #be4e04;
+  margin-bottom: 16px;
+}
+
+.comparison-drone h2 {
+  color: #000000d9;
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.comparison-drone p {
+  color: #000000d9;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.comparison-drone button {
+  background: #0070d5;
+  border-radius: 500px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  padding: 6px 12px;
+  display: block;
+}
+
+.comparison-drone a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.comparison-drone a:hover {
+  text-decoration: underline;
+}
+
+.comparison-section span {
+  font-size: 14px;
+  color: #00000073;
+  text-align: center;
+}
+
+.comparison-section p {
+  font-size: 14px;
+  color: #000000d9;
+  text-align: center;
+}
+
+.comp-btn {
+  padding: 14px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  line-height: 20px;
+  letter-spacing: -.02em;
+  box-sizing: border-box;
+  border: 1px solid rgba(0, 0, 0, .85);
+  border-radius: 9999px;
+  color: rgba(0, 0, 0, .85);
+  background-color: initial;
+}
+
+/* Hero Vertical Wrapper */
+.hero-vertical-wrapper-title h1 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: -.03em;
+}
+
+.hero-vertical-banner {
+  background-size: cover;
+  height: 296px;
+}
+
+.hero-vertical-content h3 {
+  color: #000000d9;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.hero-vertical-content p {
+  color: #000000a6;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -.02em;
+}
+
+.hero-vertical-content a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.hero-vertical-content a:hover {
+  text-decoration: underline;
+}
+
+.hero-vertical-content h2 {
+  font-size: 28px;
+  color: #000000d9;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: -.02em;
+}
+
+/* Footer */
+.footer p {
+  color: #fff;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: -.02em;
+}
+
+.footer a {
+  font-size: 13px;
+  color: #9fa3a6;
+  transition: all .3s ease;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: initial;
+  text-decoration: none;
+  letter-spacing: -.02em;
+}
+
+.footer a:hover {
+  color: #fff;
+}
+
+.footer .footer-input {
+  display: inline-block;
+  font-size: 14px;
+  color: #6c7073;
+  height: 32px;
+  background: 0 0;
+  outline: none;
+  padding: 4px 0 4px 12px;
+  border: 1px solid #6c7073;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.footer-input input {
+  background-color: #272727;
+  border: none;
+  outline: none;
+  color: #6c7073;
+  width: 100%;
+}
+
+.footer-input .footer-icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  font-size: 15px;
+  line-height: 1;
+  color: #fff;
+  background: #6c7073;
+  border: none;
+  outline: none;
+  border-radius: 0 4px 4px 0;
+  transition: all .3s ease-in-out;
+}
+
+.footer2 a {
+  font-size: 12px;
+  color: #9fa3a6;
+  transition: all .3s ease;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: initial;
+  text-decoration: none;
+}
+
+.footer2 a:hover {
+  color: #fff;
+}
+
+.footer-icon {
+  height: 16px;
+}
+
+.footer2-bottom a {
+  font-size: 12px;
+  color: #6c7073;
+  transition: all .3s ease;
+  line-height: 24px;
+  display: inline-block;
+  vertical-align: initial;
+  text-decoration: none;
+}
+
+.footer2-bottom p {
+  color: #6c7073;
+  font-size: 12px;
+}
+
+.footer2-bottom span {
+  color: #616466;
+  font-size: 12px;
+}
+
+.footer2-bottom span:hover {
+  color: #8d8c8c;
+  font-size: 12px;
+}
+
+.footer2-bottom button {
+  border: none;
+  background-color: transparent;
+  color: #9fa3a6;
+  font-size: 12px;
+  border-radius: 5px;
+  transition: all .2s;
+}
+
+.footer2-bottom button:hover {
+  background-color: #303233;
+  color: #9fa3a6;
+  font-size: 12px;
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+
+  /* Header */
+  .dron-header {
+    overflow: scroll;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1500px) {
+
+  /* Header */
+  .dron-header {
+    overflow: hidden;
+  }
+}
+
+/* Media Queries */
+@media (max-width: 575px) {
+
+  /* Hero Card */
+  .hero-card-title h1 {
+    font-size: 35px;
+  }
+
+  .hero-card-img {
+    height: 26px;
+  }
+
+  .hero-card-banner {
+    height: 526px;
+  }
+
+  /* Card Wrappers */
+  .card-wrapper {
+    height: 526px;
+  }
+
+  .card-wrapper-img {
+    height: 24px;
+  }
+
+  /* Quiz Camera Drones */
+  .quiz-drone-img {
+    height: 400px;
+  }
+
+  .quiz-drone-content button {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  /* Comparison Section */
+  .comparison-drone-img {
+    height: 120px;
+  }
+
+  .comparison-section h1 {
+    font-size: 28px;
+  }
+
+  .comparison-drone h2 {
+    font-size: 19px;
+  }
+
+  /* Hero Vertical Wrapper */
+  .hero-vertical-wrapper-title h1 {
+    font-size: 30px;
+  }
+
+  .hero-vertical-banner {
+    background-size: cover;
+    height: 180px;
+  }
+
+  .hero-vertical-content h2 {
+    font-size: 24px;
+  }
+
+  /* Footer */
+  .footer-icon {
+    height: 20px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  /* Hero Card */
+  .hero-card-title h1 {
+    font-size: 35px;
+  }
+
+  .hero-card-img {
+    height: 26px;
+  }
+
+  .hero-card-banner {
+    height: 526px;
+  }
+
+  /* Card Wrappers */
+  .card-wrapper {
+    height: 526px;
+  }
+
+  .card-wrapper-img {
+    height: 24px;
+  }
+
+  /* Quiz Camera Drones */
+  .quiz-drone-img {
+    height: 400px;
+  }
+
+  .quiz-drone-content button {
+    width: 25%;
+    margin: 0 auto;
+  }
+
+  /* Comparison Section */
+  .comparison-drone-img {
+    height: 120px;
+  }
+
+  .comparison-section h1 {
+    font-size: 28px;
+  }
+
+  .comparison-drone h2 {
+    font-size: 16px;
+  }
+
+  /* Hero Vertical Wrapper */
+  .hero-vertical-wrapper-title h1 {
+    font-size: 32px;
+  }
+
+  .hero-vertical-content h2 {
+    font-size: 24px;
+  }
+
+  /* Footer */
+  .footer-icon {
+    height: 20px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+  /* Hero Card */
+  .hero-card-title h1 {
+    font-size: 35px;
+  }
+
+  .hero-card-img {
+    height: 26px;
+  }
+
+  .hero-card-banner {
+    height: 526px;
+  }
+
+  /* Card Wrappers */
+  .card-wrapper {
+    height: 526px;
+  }
+
+  .card-wrapper-img {
+    height: 24px;
+  }
+
+  /* Quiz Camera Drones */
+  .quiz-drone-img {
+    height: 400px;
+  }
+
+  .quiz-drone-content button {
+    width: 35%;
+    margin: 0;
+  }
+
+  /* Comparison Section */
+  .comparison-drone-img {
+    height: 160px;
+  }
+
+  .comparison-section h1 {
+    font-size: 32px;
+  }
+
+  .comparison-drone h2 {
+    font-size: 18px;
+  }
+
+  /* Hero Vertical Wrapper */
+  .hero-vertical-wrapper-title h1 {
+    font-size: 32px;
+  }
+
+  .hero-vertical-banner {
+    background-size: cover;
+    height: 180px;
+  }
+
+  .hero-vertical-content h2 {
+    font-size: 24px;
+  }
+
+  /* Footer */
+  .footer-icon {
+    height: 18px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+  /* Hero Card */
+  .hero-card-title h1 {
+    font-size: 35px;
+  }
+
+  .hero-card-img {
+    height: 26px;
+  }
+
+  .hero-card-banner {
+    height: 526px;
+  }
+
+  /* Card Wrappers */
+  .card-wrapper {
+    height: 526px;
+  }
+
+  .card-wrapper-img {
+    height: 24px;
+  }
+
+  /* Quiz Camera Drones */
+  .quiz-drone-img {
+    height: 400px;
+  }
+
+  .quiz-drone-content button {
+    width: 28%;
+  }
+
+  /* Comparison Section */
+  .comparison-drone-img {
+    height: 220px;
+  }
+
+  .comparison-section h1 {
+    font-size: 35px;
+  }
+
+  .comparison-drone h2 {
+    font-size: 22px;
+  }
+
+  /* Hero Vertical Wrapper */
+  .hero-vertical-wrapper-title h1 {
+    font-size: 35px;
+  }
+
+  .hero-vertical-banner {
+    background-size: cover;
+    height: 230px;
+  }
+
+  .hero-vertical-content h2 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+
+  /* Hero Card */
+  .hero-card-title h1 {
+    font-size: 38px;
+  }
+
+  .hero-card-img {
+    height: 28px;
+  }
+
+  .hero-card-banner {
+    height: 526px;
+  }
+
+  /* Card Wrappers */
+  .card-wrapper {
+    height: 526px;
+  }
+
+  .card-wrapper-img {
+    height: 24px;
+  }
+
+  /* Quiz Camera Drones */
+  .quiz-drone-img {
+    height: 400px;
+  }
+
+  .quiz-drone-content button {
+    width: 26%;
+  }
+
+  /* Comparison Section */
+  .comparison-drone-img {
+    height: 220px;
+  }
+
+  .comparison-section h1 {
+    font-size: 38px;
+  }
+
+  .comparison-drone h2 {
+    font-size: 24px;
+  }
+
+  /* Hero Vertical Wrapper */
+  .hero-vertical-wrapper-title h1 {
+    font-size: 35px;
+  }
+}
