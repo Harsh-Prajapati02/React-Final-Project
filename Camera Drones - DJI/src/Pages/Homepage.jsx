@@ -35,7 +35,7 @@ const Homepage = () => {
       <div className="card-wrappers container-fluid pt-1 ps-md-3 pe-md-3">
         <div className="row p-2 ps-md-3 pe-md-3 ps-lg-1 pe-lg-1 ps-xl-3 pe-xl-3 ps-xxl-2 pe-xxl-2">
           <div className='col-12 p-2 col-sm-12 ps-md-1 pe-md-1 col-lg-6 p-lg-2 ps-xl-1'>
-            <div className="card-wrapper d-flex flex-column align-items-center p-4" style={{ backgroundImage: "url(https://dji-official-fe.djicdn.com/dps/c2cf5f3b8c738ee773a4035a4da36214.jpg)" }}>
+            <div className="card-wrapper d-flex flex-column align-items-center p-4" style={{ backgroundImage: "url(https://dji-official-fe.djicdn.com/dps/c2cf5f3b8c738ee773a4035a4da36214.jpg)"}}>
               <span className='text-center mb-2 pt-2'>Multiple Focal Length Triple-Lens Flagship Camera Drone</span>
               <img className='card-wrapper-img mb-2 mt-1' src="https://dji-official-fe.djicdn.com/dps/53f699de8bfca9acdc59281f81121913.svg" alt="" />
               <p className='mb-4'>Inspiration in Focus</p>
