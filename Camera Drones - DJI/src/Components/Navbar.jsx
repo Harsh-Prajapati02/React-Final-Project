@@ -28,10 +28,14 @@ function CollapsibleExample() {
             <Nav.Link className='me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2'>
               <NavLink className='navlink' to={"/handheld"}>Handheld</NavLink>
             </Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Power</Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Specialized</Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Support</Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Where to Buy</Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>
+              <NavLink className='navlink' to={"/power"}>Power</NavLink>
+            </Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>
+              <NavLink className='navlink' to={"/education-industry"}>Education & Industry</NavLink>
+            </Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Services</Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Accessories</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#deets" style={{ color: "#303233", fontSize: "20px" }}><FiSearch /></Nav.Link>

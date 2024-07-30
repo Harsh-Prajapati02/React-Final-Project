@@ -11,7 +11,7 @@ const Store = () => {
   const [page, setPage] = useState(1);
 
   const getDataFromServer = () => {
-    axios.get(`http://localhost:3000/products?_page=${page}&_limit=21`)
+    axios.get(`http://localhost:3000/products?_page=${page}&_limit=12`)
       .then((res) => setData(res.data))
       .catch((err) => console.log(err))
   }
