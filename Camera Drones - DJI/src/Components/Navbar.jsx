@@ -19,7 +19,7 @@ function CollapsibleExample() {
         <Nav.Link className='me-3'>
           <NavLink className="navlink store" to={"/store"}>STORE</NavLink>
         </Nav.Link>
-        <Navbar.Toggle className='p-1 me-3 me-sm-0' style={{ border: "none", color: "#000" }} aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle className='p-1 me-2 me-sm-0' style={{ border: "none", color: "#000" }} aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto pt-3 pb-0 pt-lg-0">
             <Nav.Link className='me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2'>
