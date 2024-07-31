@@ -14,12 +14,12 @@ const Homepage = () => {
       {/* Main */}
       {/* Hero Card */}
       <div className='hero-card container-fluid ps-3 pe-3 ps-sm-3 pe-sm-3 ps-md-4 pe-md-4 ps-lg-3 pe-lg-3 ps-xl-4 pe-xl-4 ps-xxl-3 pe-xxl-3'>
-        <div className='hero-card-title pt-5 pb-3  d-flex flex-column align-items-center p-sm-5 pt-sm-4 pb-sm-3'>
+        <div className='hero-card-title pt-4 pb-3 d-flex flex-column align-items-center p-sm-5 pt-sm-4 pb-sm-3 pt-xxl-5'>
           <h1 className='mb-2 mb-sm-2 mb-xxl-4'>Camera Drones</h1>
           <p className='mb-0'>Capture your moments from above with</p>
           <p>a mini drone, FPV, or professional aerial camera.</p>
         </div>
-        <div className='hero-card-banner p-5 d-flex flex-column align-items-center'>
+        <div className='hero-card-banner p-4 p-sm-5 d-flex flex-column align-items-center'>
           <span className='mb-2'>FPV Drone</span>
           <img className='hero-card-img mb-2' src="https://dji-official-fe.djicdn.com/dps/afb17757cc6ba0ebc3d26bf993cc7a90.svg" alt="" />
           <p>All Thrills, No Frills</p>

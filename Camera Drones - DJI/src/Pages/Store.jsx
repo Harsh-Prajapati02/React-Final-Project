@@ -33,7 +33,7 @@ const Store = () => {
               <a href="">Reset</a>
             </div>
             <div className='pb-3 ps-1 pe-1 ps-sm-0 pe-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
-              <h6 className='mb-2'>Product Series</h6>
+              <h6 className='mb-3'>Product Series</h6>
               <div className="accordion accordion-flush">
                 <div className="accordion-item" style={{ border: "none" }}>
                   <h2 className="accordion-header">
@@ -211,7 +211,7 @@ const Store = () => {
               </div>
             </div>
             <div className='pt-3 pb-3 ps-1 ps-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
-              <h6 className='mb-2'>Product Types</h6>
+              <h6 className='mb-3'>Product Types</h6>
               <div className='pt-2 pb-2 d-flex align-items-center'>
                 <input className='me-2' type="checkbox" />
                 <label htmlFor="">Main Products</label>
@@ -231,7 +231,7 @@ const Store = () => {
               <p className='mb-3 mb-sm-0'>{data.length} Item(s) Found</p>
               <div className="sort p-1 ps-3 pe-3">
                 <select name="" id="">
-                  <option value="">Sort by</option>
+                  <option value="">Sort by: Recommendation</option>
                   <option value="">Price from low to high</option>
                   <option value="">Price from high to low</option>
                 </select>

@@ -41,6 +41,10 @@
   height: 32px;
 }
 
+.hero-card-img2 {
+  height: 32px;
+}
+
 .hero-card-title h1 {
   color: rgba(0, 0, 0, 0.85);
   font-size: 48px;
@@ -217,8 +221,9 @@
   font-size: 14px;
   line-height: 20px;
   color: #fff;
-  padding: 6px 12px;
+  padding: 0px 12px;
   display: block;
+  height: 40px;
 }
 
 .comparison-drone a {
@@ -552,11 +557,15 @@
 
   /* Hero Card */
   .hero-card-title h1 {
-    font-size: 35px;
+    font-size: 28px;
   }
 
   .hero-card-img {
     height: 26px;
+  }
+
+  .hero-card-img2 {
+    height: 18px;
   }
 
   .hero-card-banner {
@@ -593,6 +602,11 @@
 
   .comparison-drone h2 {
     font-size: 19px;
+  }
+
+  .comparison-tabs {
+    overflow-x: scroll;
+    height: 72px;
   }
 
   /* Hero Vertical Wrapper */
@@ -645,6 +659,10 @@
     height: 26px;
   }
 
+  .hero-card-img2 {
+    height: 26px;
+  }
+
   .hero-card-banner {
     height: 526px;
   }
@@ -679,6 +697,11 @@
 
   .comparison-drone h2 {
     font-size: 16px;
+  }
+
+  .comparison-tabs {
+    overflow-x: scroll;
+    height: 72px;
   }
 
   /* Hero Vertical Wrapper */
@@ -716,6 +739,10 @@
     height: 26px;
   }
 
+  .hero-card-img2 {
+    height: 26px;
+  }
+
   .hero-card-banner {
     height: 526px;
   }
@@ -750,6 +777,11 @@
 
   .comparison-drone h2 {
     font-size: 18px;
+  }
+
+  .comparison-tabs {
+    overflow-x: scroll;
+    height: 55px;
   }
 
   /* Hero Vertical Wrapper */
@@ -790,6 +822,10 @@
 
   .hero-card-img {
     height: 26px;
+  }
+
+  .hero-card-img2 {
+    height: 28px;
   }
 
   .hero-card-banner {
@@ -859,6 +895,10 @@
   }
 
   .hero-card-img {
+    height: 28px;
+  }
+
+  .hero-card-img2 {
     height: 28px;
   }
 
