@@ -36,11 +36,12 @@ function CollapsibleExample() {
             </Nav.Link>
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Services</Nav.Link>
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Accessories</Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Official Refurbished</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#deets" style={{ color: "#303233", fontSize: "20px" }}><FiSearch /></Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#deets" style={{ color: "#303233", fontSize: "20px" }}>
-              <BsCart2 />
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#deets">
+              <NavLink className='navlink' to={"/cart"} style={{ color: "#303233", fontSize: "20px" }}><BsCart2 /></NavLink>
             </Nav.Link>
             <Nav.Link className='nav-link p-3 pt-2 pb-2 p-lg-2 ps-sm-0 pe-sm-0'>
               <NavLink className="navlink" to={"/login"} style={{ fontSize: "22px" }}><FiUser /></NavLink>

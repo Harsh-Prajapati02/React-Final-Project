@@ -11,7 +11,7 @@ const Store = () => {
   const [page, setPage] = useState(1);
 
   const getDataFromServer = () => {
-    axios.get(`http://localhost:3000/products?_page=${page}&_limit=12`)
+    axios.get(`http://localhost:3000/products?_page=${page}&_limit=48`)
       .then((res) => setData(res.data))
       .catch((err) => console.log(err))
   }
@@ -258,7 +258,7 @@ const Store = () => {
                 <div className='d-flex justify-content-center align-items-center p-4'>
                   <button className='me-4' onClick={() => setPage(page - 1)} disabled={page==1}>Prev</button>
                   <p className='mb-0'>{page}</p>
-                  <button className='ms-4' onClick={() => setPage(page + 1)}>Next</button>
+                  <button className='ms-4' onClick={() => setPage(page + 1)} disabled={page==7}>Next</button>
                 </div>
                 {/* <div className="product col-4 ps-2 pe-2 mb-3">
                 <div style={{ backgroundColor: "#f5f5f5" }}>
