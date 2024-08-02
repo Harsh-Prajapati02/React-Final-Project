@@ -5,413 +5,472 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/7820c86b51011167f9a8221353e20518@xlarge.png",
       "title" : "DJI Avata 2 Fly More Combo (Single Battery)",
       "price" : 999,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 2,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a8d109dc745bbd761997b81278f59d7d@xlarge.png",
       "title" : "DJI Avata 2 Fly More Combo (Three Batteries)",
       "price" : 1199,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 3,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/4ea419b081f38056785ae8665d473190@xlarge.png",
       "title" : "DJI Mini 4 Pro (DJI RC-N2)",
       "price" : 759,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 4,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/43a1010b1534f4cb708ebe3ff40e2645@xlarge.png",
       "title" : "DJI Mini 4 Pro (DJI RC 2)",
       "price" : 959,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 5,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/3116dafb26aea71bf4aac7f074ca02e8@xlarge.png",
       "title" : "DJI Mini 4 Pro Fly More Combo (DJI RC 2)",
       "price" : 1099,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 6,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/8e4e72d7144223ba34fde70cfe046104@xlarge.png",
       "title" : "DJI Mini 4 Pro Fly More Combo Plus (DJI RC 2)",
       "price" : 1159,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 7,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/dec7fc08d4404fe5dbb27116bd985d85@xlarge.png",
       "title" : "DJI Air 3 (DJI RC-N2)",
       "price" : 1099,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 8,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a7f6cf014080fc1f2b1651417cdbb8af@xlarge.png",
       "title" : "DJI Air 3 Fly More Combo (DJI RC-N2)",
       "price" : 1349,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 9,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/5c9969c960803b076513497c23de9bb0@xlarge.png",
       "title" : "DJI Air 3 Fly More Combo (DJI RC 2)",
       "price" : 1549,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 10,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/9b1bb4e6929cb9c5d0ea22bf33eedffd@xlarge.png",
       "title" : "DJI Mavic 3 Pro (DJI RC)",
       "price" : 2199,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 11,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/d1d9bf23f4a7f5c1b8c9cf2c3dcfb1e9@xlarge.png",
       "title" : "DJI Mavic 3 Pro Fly More Combo (DJI RC)",
       "price" : 2999,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 12,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/d99bb612d093709739762b240dfc0709@xlarge.png",
       "title" : "DJI Mavic 3 Pro Fly More Combo (DJI RC Pro)",
       "price" : 3889,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 13,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a7c0fc20d4cf14ecff7053b51bd9aea6@xlarge.png",
       "title" : "DJI Mavic 3 Pro Cine Premium Combo (DJI RC Pro)",
       "price" : 4799,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 14,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/1b2b5172cd089c0623ddb29fb2ac8f3f@xlarge.png",
       "title" : "DJI Inspire 3",
       "price" : 16499,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 15,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/9eb1c1fcb5714586cfe36aa027199f55@xlarge.png",
       "title" : "DJI Avata Explorer Combo",
       "price" : 829,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Avata"
     },
     {
       "id" : 16,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/f5002959a75990f4feed4579ec048f18@xlarge.png",
       "title" : "DJI Mini 2 SE",
       "price" : 279,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 2 SE"
     },
     {
       "id" : 17,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/110326b1dd911da1e25610d2ac641355@xlarge.png ",
       "title" : "DJI Mini 2 SE Fly More Combo",
       "price" : 429,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 2 SE"
     },
     {
       "id" : 18,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/fada49102504cc9f7c2052e2e6fbacac@xlarge.png",
       "title" : "DJI Mini 3 (DJI RC-N1)",
       "price" : 419,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 19,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/90ab8aaf5b320cfd7a4d0bf399ff2f6b@xlarge.png",
       "title" : "DJI Mini 3 (DJI RC)",
       "price" : 549,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 20,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/d33c1f24cefa334fcb1ef1d8f77a5e22@xlarge.png",
       "title" : "DJI Mini 3 Fly More Combo (DJI RC)",
       "price" : 719,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 21,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/19beaaa4cc0ca980146ab24d85b3a553@xlarge.png",
       "title" : "DJI Mavic 3 Classic (DJI RC-N1)",
       "price" : 1279,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mavic 3 Classic"
     },
     {
       "id" : 22,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/50df63689f05b168996332f53db525c4@xlarge.png",
       "title" : "DJI Mavic 3 Classic (DJI RC)",
       "price" : 1399,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mavic 3 Classic"
     },
     {
       "id" : 23,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/06df7bf6bf95b0b3718db60d2996be0c@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Avata 2)",
       "price" : 59,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 24,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/2045f74444f8e0912b628e95949f558a@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Avata 2)",
       "price" : 99,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 25,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/03f1c54d5d287af735a701bad7c09dd8@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mini 4 Pro)",
       "price" : 79,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 26,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/312b6f3be7e96c43c0ccf15386e4b429@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mini 4 Pro)",
       "price" : 125,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 27,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/2e9253d3b048460a85504548680481dd@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Air 3)",
       "price" : 109,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 28,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/089984cc0b6f9937d8c7c2bedaa9ad3c@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Air 3)",
       "price" : 189,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 29,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/589105800b730e76e2877981838ece93@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mavic 3 Pro)",
       "price" : 239,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 30,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/ea1965a1f6a8179e83f78eb244cfe49c@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mavic 3 Pro)",
       "price" : 399,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 31,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/031a646ab948422091e2ac8ac2361a8b@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mavic 3 Pro Cine)",
       "price" : 359,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 32,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/031a646ab948422091e2ac8ac2361a8b@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mavic 3 Pro Cine)",
       "price" : 589,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 33,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/d58426c8a77c137c7ca3f32fc0e34a8d@xlarge.png",
       "title" : "DJI Inspire 3 RAW License",
       "price" : 979,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 34,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/4ad74aea2ae0934628427409f5432c12@xlarge.png",
       "title" : "DJI Care Pro 2-Year Plan (DJI Inspire 3)",
       "price" : 3899,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 35,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/2e94b21819cac8b0871b8902dc3198a3@xlarge.png",
       "title" : "DJI Care Pro 1-Year Plan (DJI Inspire 3)",
       "price" : 2099,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 36,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6e5117d0066a0b50657c77ded81bdd6c@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mini 2 SE & DJI Mini 4K)",
       "price" : 59,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 2 SE"
     },
     {
       "id" : 37,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6e5117d0066a0b50657c77ded81bdd6c@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mini 2 SE & DJI Mini 4K)",
       "price" : 36,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 2 SE"
     },
     {
       "id" : 38,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c69587ce517267d3affaf2dda1d33ade@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mini 3)",
       "price" : 59,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 39,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c69587ce517267d3affaf2dda1d33ade@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mini 3)",
       "price" : 89,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 40,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/59c32b394bddfb6c43f928fb6c828db5@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mavic 3 Classic)",
       "price" : 259,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3 Classic"
     },
     {
       "id" : 41,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/59c32b394bddfb6c43f928fb6c828db5@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mavic 3 Classic)",
       "price" : 159,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3 Classic"
     },
     {
       "id" : 42,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c799ea7d142237b72b2b8dd618aada38@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Avata)",
       "price" : 129,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Avata"
     },
     {
       "id" : 43,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c799ea7d142237b72b2b8dd618aada38@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Avata)",
       "price" : 79,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Avata"
     },
     {
       "id" : 44,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c67fc761819531ac543962935cea18e1@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mini 3 Pro)",
       "price" : 79,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 3 Pro"
     },
     {
       "id" : 45,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c67fc761819531ac543962935cea18e1@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mini 3 Pro)",
       "price" : 125,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 3 Pro"
     },
     {
       "id" : 46,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/89fe08abb0e0ca1e45bb13c55c6b2e6d@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mavic 3)",
       "price" : 399,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 47,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/89fe08abb0e0ca1e45bb13c55c6b2e6d@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mavic 3 Cine)",
       "price" : 599,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 48,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/89fe08abb0e0ca1e45bb13c55c6b2e6d@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mavic 3)",
       "price" : 239,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 49,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/410078378f5b865cf889e3940e277f10@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mavic 3 Cine)",
       "price" : 369,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 50,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/5d168f78241661f34435e8b3f0d55124@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mini SE)",
       "price" : 29,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini SE"
     },
     {
       "id" : 51,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/5d168f78241661f34435e8b3f0d55124@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mini SE)",
       "price" : 49,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini SE"
     },
     {
       "id" : 52,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6359591a1818745692765f54a08219f3@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Air 2S)",
       "price" : 169,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Air 2S"
     },
     {
       "id" : 53,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6359591a1818745692765f54a08219f3@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Air 2S)",
       "price" : 99,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Air 2S"
     },
     {
       "id" : 54,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/8d250892b78f04f9ba1eb6dca2dd8197@xlarge.png",
       "title" : "DJI Care Refresh (Mavic Air 2)",
       "price" : 79,
-      "type" : "service"
+      "type" : "service",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 55,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/1a9c38429c197c3665d3e8e301d9be5a@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI FPV)",
       "price" : 319,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI FPV"
     },
     {
       "id" : 56,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/1a9c38429c197c3665d3e8e301d9be5a@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI FPV)",
       "price" : 199,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI FPV"
     },
     {
       "id" : 57,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/cbb7ed1cc9e4fadb6abfcb34a46b9c77@xlarge.png",
       "title" : "DJI Care Refresh 2-Year Plan (DJI Mini 2)",
       "price" : 79,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 2"
     },
     {
       "id" : 58,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/cbb7ed1cc9e4fadb6abfcb34a46b9c77@xlarge.png",
       "title" : "DJI Care Refresh 1-Year Plan (DJI Mini 2)",
       "price" : 49,
-      "type" : "service"
+      "type" : "service",
+      "series" : "DJI Mini 2"
     },
     {
       "id" : 59,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/cbb7ed1cc9e4fadb6abfcb34a46b9c77@xlarge.png",
       "title" : "DJI Care Refresh (Mavic Mini)",
       "price" : 39,
-      "type" : "service"
+      "type" : "service",
+      "series" : "Mavic Mini"
     },
     {
       "id" : 60,
@@ -439,35 +498,40 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/3ba138807a15d18554a063d758f10c94@xlarge.png",
       "title" : "DJI Care Refresh (Inspire 2)",
       "price" : 339,
-      "type" : "service"
+      "type" : "service",
+      "series" : "Inspire 2"
     },
     {
       "id" : 64,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/cfa5ef3df022f7e9a6cf3afa71217c7b@xlarge.png",
       "title" : "DJI FPV Remote Controller 3",
       "price" : 199,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 65,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/03b5e7e0d1f7c235751e87c9753ceea6@xlarge.png",
       "title" : "DJI Avata 2 Two-Way Charging Hub",
       "price" : 129,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 66,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/8c27c6d8a1261c4217c2af90437785cb@xlarge.png",
       "title" : "DJI Avata 2 Two-Way Charging Hub",
       "price" : 59,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 67,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/ead056969c142bfc44ab4293eb18d6e7@xlarge.png",
       "title" : "DJI Avata 2 ND Filter Set (ND8/16/32)",
       "price" : 79,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 68,
@@ -488,7 +552,8 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/78436cdbcd64a5cff822b5c969bc86f2@xlarge.png",
       "title" : "DJI Avata 2 Propellers",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 71,
@@ -502,63 +567,72 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/9d6ff2355edaa1a207dd707a7e79f6c2@xlarge.png",
       "title" : "DJI Mini 4 Pro Intelligent Flight Battery",
       "price" : 65,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 73,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/0eef085bd61b2d9bf842acac66eeca72@xlarge.png",
       "title" : "DJI Mini 4 Pro Wide-Angle Lens",
       "price" : 39,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 74,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/728deeca5eeb831f0229de209ec1683d@xlarge.png",
       "title" : "DJI Mini 4 Pro ND Filter Set (ND16/64/256)",
       "price" : 55,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 75,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/4e8ca25d5260ada484c2cd1da85a47b5@xlarge.png",
       "title" : "DJI Mini 4 Pro 360° Propeller Guard",
       "price" : 29,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 76,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/07be7bd7ced2f8c650b1b1096477b04b@xlarge.png",
       "title" : "DJI Air 3 Wide-Angle Lens",
       "price" : 59,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 77,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/1a9da593db47f79ba1a57544206a3e20@xlarge.png",
       "title" : "DJI Air 3 Propeller Guard",
       "price" : 17,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 78,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/2e351397c750b630163348f5c499ee7e@xlarge.png",
       "title" : "DJI Air 3 Intelligent Flight Battery",
       "price" : 159,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 79,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/be7f861b801dacf39190184b006e203a@xlarge.png",
       "title" : "DJI Air 3 Battery Charging Hub",
       "price" : 69,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 80,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/cc683a210819af327963a2df152b8d4c@xlarge.png",
       "title" : "DJI Air 3 Low-Noise Propellers",
       "price" : 12,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 81,
@@ -572,42 +646,48 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/497929a74bdd32c89f1ac9e7baafee73@xlarge.png",
       "title" : "DJI Power 500 + DJI Power SDC to DJI Air 3 Fast Charge Cable",
       "price" : 718,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 83,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/68171822ce69b9ad4961b3fee448cb60@xlarge.png",
       "title" : "DJI Power 500 + DJI Power SDC to DJI Air 3 Fast Charge Cable",
       "price" : 398,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 84,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/0bf7519e2628af2543a879cb35259a9c@xlarge.png",
       "title" : "DJI Mavic 3 Pro Storage Cover",
       "price" : 39,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 85,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/b9e621cadeabae7ce08bc697f14c4c8d@xlarge.png",
       "title" : "DJI Mavic 3 Pro ND Filter Set (ND8/16/32/64)",
       "price" : 179,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 86,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/f416ccc6a2dfd9bcb3c68cd602ea5396@xlarge.png",
       "title" : "DJI Mavic 3 Pro Wide-Angle Lens",
       "price" : 179,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 87,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/62b99539f958852691e1540c6a106db4@xlarge.png",
       "title" : "DJI Mavic 3 Pro Propeller Guard",
       "price" : 49,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3 Pro"
     },
     {
       "id" : 88,
@@ -712,21 +792,24 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/41935c1a2019e35d63ed4fce17a951f0@xlarge.png",
       "title" : "DJI Inspire 3 Foldable Quick-Release Propellers (Pair)",
       "price" : 69,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 103,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/36ba72bc68ecb4a710040be4ef2c3472@xlarge.png",
       "title" : "DJI Inspire 3 Foldable Quick-Release Propellers for High Altitude (Pair)",
       "price" : 89,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 104,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a8032caa76de5ee0b111cb62b0e33465@xlarge.png",
       "title" : "DJI Inspire 3 Propeller Guard",
       "price" : 349,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 105,
@@ -740,7 +823,8 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/7db016d066a2949ba8649194e032f6a1@xlarge.png",
       "title" : "DJI Inspire 3 Gimbal Rubber Dampers",
       "price" : 49,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 107,
@@ -789,28 +873,32 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/1ad369a55731972f462a8a435097d933@xlarge.png",
       "title" : "DJI Power 1000 + DJI Power SDC to DJI Inspire 3 Fast Charge Cable",
       "price" : 718,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 114,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/9c0faf2a83cdda6aadb56c18d93a2e28@xlarge.png",
       "title" : "DJI Power 500 + DJI Power SDC to DJI Inspire 3 Fast Charge Cable",
       "price" : 398,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 115,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/1a0a9695454770b1f4b4e80d353d83ad@xlarge.png",
       "title" : "DJI Mavic 3 Series Fly More Kit",
       "price" : 649,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 116,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a725d93f2ffd9f8cada18c515d384bd0@xlarge.png",
       "title" : "DJI Mavic 3 Series Intelligent Flight Battery",
       "price" : 159,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 117,
@@ -852,28 +940,32 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a3e36f0aa7f893ea657128eaaf6e83a5@xlarge.png",
       "title" : "DJI Mavic 3 Series 100W Battery Charging Hub",
       "price" : 99,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 123,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/407649266c3cfa5fd5783554eac3a690@xlarge.png",
       "title" : "DJI Mavic 3 Series Battery Charging Hub",
       "price" : 89,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 124,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/90c53306ebf33a1221940ea5cca5a7e8@xlarge.png",
       "title" : "DJI Mavic 3 Classic ND Filter Set (ND8/16/32/64)",
       "price" : 129,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3 Classic"
     },
     {
       "id" : 125,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/5c4c1f53d3b8bc22531bd97f0c4ac79b@xlarge.png",
       "title" : "DJI Mavic 3 Classic Wide-Angle Lens",
       "price" : 129,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3 Classic"
     },
     {
       "id" : 126,
@@ -887,14 +979,16 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/28c45b572f4f4f8e1ec7faed621ad35e@xlarge.png",
       "title" : "DJI Mavic 3 Propeller Guard",
       "price" : 49,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 128,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/4cbd88e6fa76855a4adc4a679f2d3294@xlarge.png",
       "title" : "DJI Mavic 3 Series Low-Noise Propellers",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 129,
@@ -922,14 +1016,16 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6e19fac60c035d44651c2792b2649a56@xlarge.png",
       "title" : "DJI Mavic 3 Classic Storage Cover",
       "price" : 39,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3 Classic"
     },
     {
       "id" : 133,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/b783ba9a8d671c057f5c61afd94a4f77@xlarge.png",
       "title" : "DJI Mavic 3 Storage Cover",
       "price" : 39,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mavic 3"
     },
     {
       "id" : 134,
@@ -957,56 +1053,64 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c13f5442646b07c693d4a1ef4864459e@xlarge.png",
       "title" : "DJI Mini 3 Propellers",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 138,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/547f165812e07ce8fc05c5d70fe5283f@xlarge.png",
       "title" : "DJI Mini 3 Series Propeller Holder",
       "price" : 13,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 139,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/aa3c490c74ff89195d39bd23bf702cb7@xlarge.png",
       "title" : "DJI Mini 3 Series 360° Propeller Guard",
       "price" : 29,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 140,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/14601a21e87b80d919d8a854f42f0a05@xlarge.png",
       "title" : "DJI Mini 4 Pro/Mini 3 Series Intelligent Flight Battery Plus",
       "price" : 95,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 141,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/55178553bb0fe451c8192acdaf562856@xlarge.png",
       "title" : "DJI Mini 3 Series Intelligent Flight Battery",
       "price" : 65,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 142,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a4e209787c02f7d32a638a2caef267fc@xlarge.png",
       "title" : "DJI Mini 3 Series ND Filter Set (ND16/64/256)",
       "price" : 55,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 143,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a0c7d31694f6977ca4919f2f8a551560@xlarge.png",
       "title" : "DJI Mini 4 Pro/Mini 3 Pro Propellers",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 144,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/8ebb7a562defb54fa78f19675eb9428d@xlarge.png",
       "title" : "DJI Mini 4 Pro/Mini 3 Series Two-Way Charging Hub",
       "price" : 49,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 4 Pro"
     },
     {
       "id" : 145,
@@ -1027,21 +1131,24 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/1afc8c28d0019bee220524f4e9fae14b@xlarge.png",
       "title" : "DJI Avata ND Filter Set (ND8/16/32)",
       "price" : 79,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata"
     },
     {
       "id" : 148,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/015afc9a9385a07cccd84bce3312b507@xlarge.png",
       "title" : "DJI Avata Propellers",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata"
     },
     {
       "id" : 149,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/b22612f521924a2c96f98f4d8d594a42@xlarge.png",
       "title" : "DJI Avata Upper Frame",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata"
     },
     {
       "id" : 150,
@@ -1076,14 +1183,16 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/ebca58637da966cb5c069396851333c0@xlarge.png",
       "title" : "DJI Avata Propeller Guard",
       "price" : 29,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata"
     },
     {
       "id" : 155,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c6fb813da4b28677627f911d8c9edc25@xlarge.png",
       "title" : "DJI Avata Fly More Kit",
       "price" : 279,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata"
     },
     {
       "id" : 156,
@@ -1097,7 +1206,8 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/80b1187eca75a6c5a3bd95ad2a3a1463@xlarge.png",
       "title" : "DJI Avata Battery Charging Hub",
       "price" : 59,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata"
     },
     {
       "id" : 158,
@@ -1111,7 +1221,8 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/864a9f41775707be436395880a8fc4f6@xlarge.png",
       "title" : "DJI Avata Intelligent Flight Battery",
       "price" : 129,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata"
     },
     {
       "id" : 160,
@@ -1139,28 +1250,32 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/71829ecafe23fc4deff5a58df3d123e8@xlarge.png",
       "title" : "DJI Mini 2 Propellers",
       "price" : 12,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 2"
     },
     {
       "id" : 164,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/18d5067b29e87205feb4148ac3752ec4@xlarge.png",
       "title" : "DJI Mini 2 360° Propeller Guard",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 2"
     },
     {
       "id" : 165,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/8444e6ccac413540b6a006ff8e109767@xlarge.png",
       "title" : "DJI Mini 2 Intelligent Flight Battery",
       "price" : 55,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 2"
     },
     {
       "id" : 166,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6226d57725db37788c40932fd5827a3f@xlarge.png",
       "title" : "DJI Mini 2 Two-Way Charging Hub",
       "price" : 39,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 2"
     },
     {
       "id" : 167,
@@ -1174,42 +1289,48 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/0bc545ac-ba25-4e0b-873f-c62e89ae6cc3@xlarge.png",
       "title" : "Mavic Air Propellers",
       "price" : 12,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air"
     },
     {
       "id" : 169,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/4e13ead72339c1489f8e3b05b9730b6c@xlarge.png",
       "title" : "Mavic Air 2 Protector Case",
       "price" : 169,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 170,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/74ef9086f33e63f7ee5f040c70401c14@xlarge.png",
       "title" : "Mavic Air 2 Intelligent Flight Battery",
       "price" : 115,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 171,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/7eadcfb0a31bc5c73287da9605991e8c@xlarge.png",
       "title" : "Mavic Air 2 Battery Charging Hub",
       "price" : 59,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 172,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/133dcae535a6d1afeee4fff204ff1e6b@xlarge.png",
       "title" : "Mavic Air 2 Battery to Power Bank Adapter",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 173,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/df222c337bedbcd8f3a4dfd957c17177@xlarge.png",
       "title" : "Mavic Air 2 Car Charger",
       "price" : 59,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 174,
@@ -1223,49 +1344,56 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/e7c631ab75d4be3ff076c12a68736f45@xlarge.png",
       "title" : "DJI Air 2S ND Filter Set (ND64/128/256/512)",
       "price" : 99,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 2S"
     },
     {
       "id" : 176,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/ca2804ebebe24cca6b4c30441534b356@xlarge.png",
       "title" : "DJI Air 2S Gimbal Protector",
       "price" : 12,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 2S"
     },
     {
       "id" : 177,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/11b3285e-0eee-4065-98b5-73faa1d8b6e3@xlarge.png",
       "title" : "DJI FPV Goggles Headband",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 178,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/057d56d033966da317549fff99099a6e@xlarge.png",
       "title" : "DJI FPV Goggles Sponge Foam Padding",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 179,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/326821d4-eae8-4dda-8f52-4317fde152a4@xlarge.png",
       "title" : "DJI FPV Goggles Foam Padding",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 180,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/bf99bddd-7af8-40eb-bc2b-9cfc3260029b@xlarge.png",
       "title" : "DJI FPV Goggles Power Cable (XT60)",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 181,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/86baba0563f78b8d85a5f0c4839f0755@xlarge.png",
       "title" : "DJI FPV Remote Controller 2",
       "price" : 199,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 182,
@@ -1279,84 +1407,96 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c961c441-173a-4405-8284-90c2fe87fa94@xlarge.png",
       "title" : "DJI FPV Air Unit Coaxial Cable",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 184,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/e2e39de9-bc6d-4f9b-88b5-4edf60844dd8@xlarge.png",
       "title" : "DJI FPV Air Unit Antenna (MMCX Straight)",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 185,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/42e1afdc-c823-4340-9596-cd200b22127b@xlarge.png",
       "title" : "DJI FPV Lens Protector",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 186,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/ed1ecc66-afa4-46de-b60f-a55f8bd5f19e@xlarge.png",
       "title" : "DJI FPV Air Unit MMCX to SMA Cable (MMCX Straight)",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 187,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/cb04a98a-90ef-4066-8fef-78641c4bf3d0@xlarge.png",
       "title" : "DJI FPV Air Unit MMCX to SMA Cable (MMCX Elbow)",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 188,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a169f69b81f2e26d156e4eee8a74c265@xlarge.png",
       "title" : "DJI FPV Gimbal Protector",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 189,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a3bce8d26bb86eb81a8a7b810f98bd1c@xlarge.png",
       "title" : "DJI FPV Top Shell",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 190,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/aabea927f288a18c9e6a0c57b516ed0c@xlarge.png",
       "title" : "DJI FPV Landing Gear",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 191,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/78a780955874ae5e78379948f676eab4@xlarge.png",
       "title" : "DJI FPV Intelligent Flight Battery",
       "price" : 159,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 192,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/409b0c364b26809ed92d0ffd031db693@xlarge.png",
       "title" : "DJI FPV Fly More Kit",
       "price" : 299,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 193,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/142b3a4d1a06e059f9ee8b0161616fba@xlarge.png",
       "title" : "DJI FPV Car Charger",
       "price" : 69,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 194,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a30b8abdc8ea57fdfd607863346a4bea@xlarge.png",
       "title" : "DJI FPV Battery Charging Hub",
       "price" : 49,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 195,
@@ -1370,56 +1510,64 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/5a147d5630d39f661da719f7771e1691@xlarge.png",
       "title" : "DJI Power SDC to DJI Air 3 Fast Charge Cable",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 197,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/0ccc0686445501a3b03f9d1fafe04d44@xlarge.png",
       "title" : "DJI Power SDC to DJI Inspire 3 Fast Charge Cable",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Inspire 3"
     },
     {
       "id" : 198,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/684a5cf519e5d94b534f77d2fb0fc737@xlarge.png",
       "title" : "DJI O3 Air Unit Camera Module",
       "price" : 109,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI 03 Air Unit"
     },
     {
       "id" : 199,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/ab3dc2b84c1fc9f7542f21030d7b5c17@xlarge.png",
       "title" : "DJI O3 Air Unit",
       "price" : 229,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI 03 Air Unit"
     },
     {
       "id" : 200,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/ee3b6af506f1e0c440ad2e13bd4f8fbb@xlarge.png",
       "title" : "DJI O3 Air Unit Transmission Module",
       "price" : 169,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI 03 Air Unit"
     },
     {
       "id" : 201,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/c362b19de05075e67e36cf87f9e13ba1@xlarge.png",
       "title" : "DJI O3 Air Unit Antenna",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI 03 Air Unit"
     },
     {
       "id" : 202,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/99e100e7c47f6831fc49f45a464266ee@xlarge.png",
       "title" : "DJI O3 Air Unit 3-in-1 Cable",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI 03 Air Unit"
     },
     {
       "id" : 203,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/571a44a1-4e86-46f2-915d-12305c6c8dd2@xlarge.png",
       "title" : "Mavic 2 Intelligent Flight Battery",
       "price" : 149,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic 2"
     },
     {
       "id" : 204,
@@ -1482,28 +1630,32 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/1d5a1650-b8ad-464d-9af8-992e25a02485@xlarge.png",
       "title" : "Inspire 2/Ronin 2 Battery Charging Hub",
       "price" : 129,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 213,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/e8fed20a-5778-460f-ade5-88ec46191eb3@xlarge.png",
       "title" : "Phantom 4 Series Low-Noise Propellers",
       "price" : 13,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Phantom 4"
     },
     {
       "id" : 214,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/8c0be49b126071cf7ef0e52367daa5b1@xlarge.png",
       "title" : "Phantom 4 Series Intelligent Flight Battery",
       "price" : 185,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Phantom 4"
     },
     {
       "id" : 215,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/6381----c@xlarge.png",
       "title" : "Phantom 4 Series Battery Charging Hub",
       "price" : 109,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Phantom 4"
     },
     {
       "id" : 216,
@@ -1545,28 +1697,32 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/1e1ced1c9fc557b237068f683a067feb@xlarge.png",
       "title" : "DJI Avata 2 (Drone Only)",
       "price" : 489,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Avata 2"
     },
     {
       "id" : 222,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/0dab5f9cebb90e89c7a304b8bd9ab004@xlarge.png",
       "title" : "DJI Avata Pro-View Combo (New)",
       "price" : 999,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Avata"
     },
     {
       "id" : 223,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/3c7d6904faf26e3a844cbd980e8a8663@xlarge.png",
       "title" : "DJI Mini 3 (No RC)",
       "price" : 339,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 224,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/bdba5e5b524a6e863be041773f1088cd@xlarge.png",
       "title" : "DJI Mini 3 Fly More Combo (DJI RC-N1)",
       "price" : 589,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 3"
     },
     {
       "id" : 225,
@@ -1580,112 +1736,128 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/daf2c8fd679eb886c0ba45a1d015a5fc@xlarge.png",
       "title" : "DJI Avata (No RC)",
       "price" : 629,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Avata"
     },
     {
       "id" : 227,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6486fa153ef507ae70987978b9812ece@xlarge.png",
       "title" : "DJI Mini 3 Pro (DJI RC-N1)",
       "price" : 599,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 3 Pro"
     },
     {
       "id" : 228,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/8d6418d65f239270d9ec3010c3cca887@xlarge.png",
       "title" : "DJI Mini 3 Pro (DJI RC)",
       "price" : 729,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 3 Pro"
     },
     {
       "id" : 229,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/496d1c2880f0d155617d1c97bf0ef5ea@xlarge.png",
       "title" : "DJI Mini 3 Pro (No RC)",
       "price" : 539,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Mini 3 Pro"
     },
     {
       "id" : 230,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/7727599c23f26f2fa55ab60494cd3569@xlarge.png",
       "title" : "Mavic Air 2",
       "price" : 599,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 231,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/9bc742368550a469dba58389f9ac799b@xlarge.png",
       "title" : "Mavic Air 2 Fly More Combo",
       "price" : 789,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 232,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/4c8f85d27ccbff1ef1419b8c901d8269@xlarge.png",
       "title" : "DJI FPV Combo",
       "price" : 999,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI FPV"
     },
     {
       "id" : 233,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/275cd727-41ae-4a46-af32-a1d9274cd9ce@xlarge.png",
       "title" : "Inspire 2",
       "price" : 3299,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Inspire 2"
     },
     {
       "id" : 234,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/e22f7a8005eedf674c6f997b9a1fa471@xlarge.png",
       "title" : "Phantom 4 Pro V2.0",
       "price" : 1599,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Phantom 4"
     },
     {
       "id" : 235,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/e22f7a8005eedf674c6f997b9a1fa471@xlarge.png",
       "title" : "Phantom 4 Pro+ V2.0",
       "price" : 2049,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Phantom 4"
     },
     {
       "id" : 236,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/45c2134edfd247b11198109185a35328@xlarge.png",
       "title" : "Inspire 2 X5S Standard Kit",
       "price" : 5299,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Inspire 2"
     },
     {
       "id" : 237,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/ea0019711427c8f32f07eb787eba95ac@xlarge.png",
       "title" : "Inspire 2 X7 Standard Kit",
       "price" : 7599,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Inspire 2"
     },
     {
       "id" : 238,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/e1f6bcc5db193e10b25a0c09e21746a4@xlarge.png",
       "title" : "Inspire 2 X7 Advanced Kit",
       "price" : 9399,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Inspire 2"
     },
     {
       "id" : 239,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/fe1819d33f9c5e3f4c00ba595dedd0dd@xlarge.png",
       "title" : "Inspire 2 X5S Advanced Kit",
       "price" : 7099,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "Inspire 2"
     },
     {
       "id" : 240,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/f8a9c5ee7e35f5f50af34612375d7f68@xlarge.png",
       "title" : "DJI Air 3 ND Filter Set (ND8/16/32/64)",
       "price" : 99,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 241,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/fffcf70965f90288d238cc3efcb87c10@xlarge.png",
       "title" : "DJI Air 3 Gimbal Protector",
       "price" : 12,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 3"
     },
     {
       "id" : 242,
@@ -1727,49 +1899,56 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/cf5341e42f2732a6bbd448f4c8dd1db0@xlarge.png",
       "title" : "DJI Mini 3 Pro Fly More Kit Plus",
       "price" : 249,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 3 Pro"
     },
     {
       "id" : 248,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a3df0820781866973ceef808601f03ff@xlarge.png",
       "title" : "DJI Mini 3 Pro Fly More Kit",
       "price" : 189,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 3 Pro"
     },
     {
       "id" : 249,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/4b3768371f059c0d1e38bccd761dc4e5@xlarge.png",
       "title" : "DJI Mini 3 Pro Wide-Angle Lens",
       "price" : 39,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Mini 3 Pro"
     },
     {
       "id" : 250,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/66a9cb2e12634d2d4f06e2caca20305a@xlarge.png",
       "title" : "DJI Avata Battery Buckle Mount",
       "price" : 8,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Avata"
     },
     {
       "id" : 251,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/fb4c9848cdf042e685804e3d3f05891a@xlarge.png",
       "title" : "DJI FPV Control Sticks",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 252,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/38f1d184f656706bec2f5a3dc81a4ccb@xlarge.png",
       "title" : "Mavic Mini DIY Creative Kit",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Mini"
     },
     {
       "id" : 253,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/01ac2df3b41d1494f9448cbc93a4375e@xlarge.png",
       "title" : "Mavic Mini Propellers",
       "price" : 12,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Mini"
     },
     {
       "id" : 254,
@@ -1790,140 +1969,160 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/86eaf05b348ace444f7735e4007b5d87@xlarge.png",
       "title" : "Mavic Mini Intelligent Flight Battery",
       "price" : 45,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Mini"
     },
     {
       "id" : 257,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/d54abb8ddfe77e787c29bea38e1b63fd@xlarge.png",
       "title" : "Mavic Air 2 ND Filter Set (ND16/64/256)",
       "price" : 65,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 258,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/fe77fece-594e-4e27-b61d-b6228a3c1815@xlarge.png",
       "title" : "Mavic Air Intelligent Flight Battery",
       "price" : 85,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air"
     },
     {
       "id" : 259,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/37ff77736fc985bd49ccfdcf0e036fde@xlarge.png",
       "title" : "Mavic Air 2 Aircraft Sleeve",
       "price" : 10,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 260,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a8928f80d05c51a433501c738615828d@xlarge.png",
       "title" : "Mavic Air 2 Shoulder Bag",
       "price" : 89,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 261,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/e91f272aefe494d79c288f214d4815cc@xlarge.png",
       "title" : "Mavic Air 2 Propeller Guard",
       "price" : 16,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Air 2"
     },
     {
       "id" : 262,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/02ed8944e3363fa08399956e6c8b731a@xlarge.png",
       "title" : "DJI Air 2S ND Filter Set (ND4/8/16/32)",
       "price" : 99,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 2S"
     },
     {
       "id" : 263,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/d8c5cdddd1d55b93dfad29412b4655bb@xlarge.png",
       "title" : "DJI Air 2S Low-Noise Propellers",
       "price" : 11,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI Air 2S"
     },
     {
       "id" : 264,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/8ffe0a5c-0dec-46b7-a5df-137eeef062a6@xlarge.png",
       "title" : "DJI FPV Goggles Antenna",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 265,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/b0688612-87f0-4ea5-9622-d54acc770f45@xlarge.png",
       "title" : "DJI FPV Air Unit Antenna (SMA)",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 266,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/d0cdd3d5-41f3-4862-b2eb-4119bd2e1030@xlarge.png",
       "title" : "DJI FPV Air Unit 3-in-1 Cable",
       "price" : 6,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 267,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/4e48a687-3cff-4a9f-80df-c27838829e25@xlarge.png",
       "title" : "DJI FPV Air Unit Antenna (MMCX Elbow)",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 268,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/cd34db0b8bc46f8f0eb63bf375ae2c4e@xlarge.png",
       "title" : "DJI FPV Propellers",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 269,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/344479d0fabebf005d52670db5bcbd16@xlarge.png",
       "title" : "DJI FPV Drone Arm Bracers",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 270,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/f32d767a58e3bac4ea016baf7f3d3818@xlarge.png",
       "title" : "DJI FPV Goggles Antenna (Dual Band)",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 271,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/4f15104972d0bd339789303978e90cc5@xlarge.png",
       "title" : "DJI FPV Propeller Guard",
       "price" : 25,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 272,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/acdab1b71ae761db5226b8132220f784@xlarge.png",
       "title" : "DJI FPV Goggles Battery",
       "price" : 29,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 273,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/f94da7185df9b55c3f319bc3501afef1@xlarge.png",
       "title" : "DJI FPV Goggles Power Cable (USB-C)",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 274,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/aed8d986a35fa6af2fbd7c9f0cf4559c@xlarge.png",
       "title" : "DJI FPV AC Power Adapter",
       "price" : 59,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "DJI FPV"
     },
     {
       "id" : 275,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/de4362b1-76f4-40d5-bf8e-3bcb76e24c0b@xlarge.png",
       "title" : "Mavic 2 Low-Noise Propellers",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic 2"
     },
     {
       "id" : 276,
@@ -1944,7 +2143,8 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/57da2253-7366-40eb-9e81-dff1a9f5854e@xlarge.png",
       "title" : "Inspire 2 CINESSD (120 GB)",
       "price" : 299,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 279,
@@ -1972,7 +2172,8 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/b25772ed-a127-4745-b249-1cac8116092d@xlarge.png",
       "title" : "Inspire 2 Remote Controller Mobile Device Holder",
       "price" : 59,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 283,
@@ -1986,7 +2187,8 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/9fb7ce8d-c033-4d1e-b8ef-8f7c8baf706e@xlarge.png",
       "title" : "Inspire 2 Remote Controller Support Rig",
       "price" : 15,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 285,
@@ -2021,14 +2223,16 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/f4380325-4f54-48d6-8bb0-8ad7c0cff7f0@xlarge.png",
       "title" : "Inspire 2 Quick Release Propeller Mounting Plates",
       "price" : 13,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 290,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/5ac2f0a0-a440-46eb-9527-862b4fe66175@xlarge.png",
       "title" : "Inspire 2 Quick Release Propellers",
       "price" : 25,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 291,
@@ -2042,21 +2246,24 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/e88a62b1-bcb8-403a-82bf-462a6cdd31f9@xlarge.png",
       "title" : "Inspire 2/Cendence Remote Controller Mobile Device Holder",
       "price" : 33,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 293,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/f80efdbb-e605-4bfe-be6b-1ebdddc68483@xlarge.png",
       "title" : "Inspire 2 Mobile Device Holder Adapter",
       "price" : 12,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 294,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/__-cover@xlarge.png",
       "title" : "Inspire 2 DJI Focus Handwheel Remote Controller Stand",
       "price" : 49,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 295,
@@ -2070,63 +2277,72 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6e29b04bd83900fe66ea05f22b5268ab@xlarge.png",
       "title" : "Inspire 2 Handle Grips",
       "price" : 139,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 297,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/07e6f984-c974-40ba-98c5-62deed4a7b44@xlarge.png",
       "title" : "Inspire 2 Gimbal Protection Kit",
       "price" : 19,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 298,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/f1c24e72-0354-42f8-bd25-171a504e6d37@xlarge.png",
       "title" : "Inspire 2 Propeller Guard",
       "price" : 139,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 299,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/d1b90e50-b38e-4409-a6cd-5a28854cb7d6@xlarge.png",
       "title" : "Inspire 1 Charger to Inspire 2 Charging Hub Power Cable",
       "price" : 11,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 300,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/6877061a-d2dc-48e1-b82c-6186e130c486@xlarge.png",
       "title" : "Inspire 2 Car Charger",
       "price" : 139,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 301,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/d877acea-36b5-4f61-9d8f-1cf477ebb246@xlarge.png",
       "title" : "Inspire 2/Ronin 2 180 W Battery Charger",
       "price" : 119,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 302,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/0f219b25-f171-426d-9dae-f8f1f46a0731@xlarge.png",
       "title" : "Inspire 2 Remote Controller Charging Cable",
       "price" : 9,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Inspire 2"
     },
     {
       "id" : 303,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/609fcc41-f73f-44e0-9147-b3955c8ef21b@xlarge.png",
       "title" : "Mavic Pro Platinum Intelligent Flight Battery",
       "price" : 95,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Pro"
     },
     {
       "id" : 304,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/sku/cover/77bd1b9c-9a63-429c-a304-f75be5eb1b78@xlarge.png",
       "title" : "Mavic Pro Intelligent Flight Battery",
       "price" : 95,
-      "type" : "accessory"
+      "type" : "accessory",
+      "series" : "Mavic Pro"
     },
     {
       "id" : 305,

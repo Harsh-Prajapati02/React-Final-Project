@@ -48,7 +48,7 @@ const Header = () => {
             </Link>
           </div>
           <div className="col-3 col-sm-2 col-lg-1 d-flex justify-content-center">
-          <Link to={"/store"} className='link'>
+          <Link to={"/power"} className='link'>
               <img src="https://dji-official-fe.djicdn.com/dps/2fb13926f6e7b4b0cbeb01fbcce28320.png" height={65} alt="" />
               <p>DJI Power</p>
             </Link>

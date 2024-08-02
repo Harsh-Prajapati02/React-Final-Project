@@ -7,17 +7,22 @@ import { Link } from 'react-router-dom';
 
 const Power = () => {
   const [data, setData] = useState([]);
-  const [page, setPage] = useState(1);
+  const [order, setOrder] = useState(null);
 
   const getDataFromServer = () => {
-    axios.get(` http://localhost:3000/power?_page=${page}&_limit=10`)
+    axios.get(`http://localhost:3000/power?`, {
+      params : {
+        _sort : "price",
+        _order : order
+      }
+    })
       .then((res) => setData(res.data))
       .catch((err) => console.log(err))
   }
 
   useEffect(() => {
     getDataFromServer();
-  }, [page])
+  }, [order])
 
   return (
     <>
@@ -67,14 +72,14 @@ const Power = () => {
               </div>
             </div>
           </div>
-          <div className="product-list col-12 p-4 col-sm-9 pe-sm-2 ps-sm-2 ps-xl-3 pe-xxl-4">
+          <div className="product-list col-12 p-4 col-sm-9 pe-sm-2 ps-sm-2 ps-xl-3 pe-xxl-4 pb-xl-5">
             <div className="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center ps-2 pe-2 mb-3">
               <p className='mb-3 mb-sm-0'>{data.length} Item(s) Found</p>
               <div className="sort p-1 ps-3 pe-3">
-                <select name="" id="">
+                <select name="" id="" onChange={(e) => setOrder(e.target.value)}>
                   <option value="">Sort by: Recommendation</option>
-                  <option value="">Price from low to high</option>
-                  <option value="">Price from high to low</option>
+                  <option value="asc">Price from low to high</option>
+                  <option value="desc">Price from high to low</option>
                 </select>
               </div>
             </div>
@@ -96,20 +101,6 @@ const Power = () => {
                     </div>
                   </div>
                 ))}
-                <div className='d-flex justify-content-center align-items-center p-4'>
-                  <button className='me-4' onClick={() => setPage(page - 1)} disabled={page==1}>Prev</button>
-                  <p className='mb-0'>{page}</p>
-                  <button className='ms-4' onClick={() => setPage(page + 1)} disabled={page==3}>Next</button>
-                </div>
-                {/* <div className="product col-4 ps-2 pe-2 mb-3">
-                <div style={{ backgroundColor: "#f5f5f5" }}>
-                  <img src="https://se-cdn.djiits.com/tpc/uploads/spu/cover/7820c86b51011167f9a8221353e20518@xlarge.png" height={272} alt="" />
-                  <div className="p-4">
-                    <h6>DJI Avata 2 Fly More Combo (Single Battery)</h6>
-                    <p className='d-flex align-items-center'>USD $<h4>2199</h4></p>
-                  </div>
-                </div>
-              </div> */}
               </div>
             </div>
           </div>

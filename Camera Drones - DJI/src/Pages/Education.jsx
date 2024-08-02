@@ -8,27 +8,43 @@ import { Link } from 'react-router-dom';
 const Education = () => {
   const [data, setData] = useState([]);
   const [data2, setData2] = useState([]);
+  const [order, setOrder] = useState(null);
+  const [order2, setOrder2] = useState(null);
   const [page, setPage] = useState(1);
 
   const getDataFromServer = () => {
-    axios.get(`http://localhost:3000/enterprise?_page=${page}&_limit=48`)
+    axios.get(`http://localhost:3000/enterprise`, {
+      params : {
+        _page : page,
+        _limit : 48,
+        _sort : "price",
+        _order : order
+      }
+    })
       .then((res) => setData(res.data))
       .catch((err) => console.log(err))
   }
 
   const getDataFromServer2 = () => {
-    axios.get(`http://localhost:3000/education?_page=${page}&_limit=48`)
+    axios.get(`http://localhost:3000/education?_page=${page}&_limit=48`, {
+      params : {
+        _page : page,
+        _limit : 48,
+        _sort : "price",
+        _order : order2
+      }
+    })
       .then((res) => setData2(res.data))
       .catch((err) => console.log(err))
   }
 
   useEffect(() => {
     getDataFromServer();
-  }, [page])
+  }, [page, order])
 
   useEffect(() => {
     getDataFromServer2();
-  }, [page])
+  }, [page, order2])
 
   return (
     <>
@@ -121,10 +137,10 @@ const Education = () => {
                 <div className="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center ps-2 pe-2 mb-3">
                   <p className='mb-3 mb-sm-0'>{data.length} Item(s) Found</p>
                   <div className="sort p-1 ps-3 pe-3">
-                    <select name="" id="">
+                    <select name="" id="" onChange={(e) => setOrder(e.target.value)}>
                       <option value="">Sort by: Recommendation</option>
-                      <option value="">Price from low to high</option>
-                      <option value="">Price from high to low</option>
+                      <option value="asc">Price from low to high</option>
+                      <option value="desc">Price from high to low</option>
                     </select>
                   </div>
                 </div>
@@ -211,10 +227,10 @@ const Education = () => {
                 <div className="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center ps-2 pe-2 mb-3">
                   <p className='mb-3 mb-sm-0'>{data2.length} Item(s) Found</p>
                   <div className="sort p-1 ps-3 pe-3">
-                    <select name="" id="">
+                    <select name="" id="" onChange={(e) => setOrder2(e.target.value)}>
                       <option value="">Sort by: Recommendation</option>
-                      <option value="">Price from low to high</option>
-                      <option value="">Price from high to low</option>
+                      <option value="asc">Price from low to high</option>
+                      <option value="desc">Price from high to low</option>
                     </select>
                   </div>
                 </div>
