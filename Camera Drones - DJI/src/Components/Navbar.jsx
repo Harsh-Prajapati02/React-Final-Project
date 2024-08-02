@@ -11,7 +11,7 @@ function CollapsibleExample() {
   return (
     <Navbar collapseOnSelect expand="lg" style={{ borderBottom: "2px solid #00000005" }}>
       <Container className='ps-0 pe-0 col-12 ps-xxl-5 pe-xxl-5 ps-xxl-3 pe-xxl-3'>
-        <Navbar.Brand href="#home" className='pe-0 ps-3 pt-2 pb-sm-2 ps-sm-0'>
+        <Navbar.Brand className='pe-0 ps-3 pt-2 pb-sm-2 ps-sm-0'>
           <Link to="/">
             <img src="https://www1.djicdn.com/dps/78800252c507990e5f033805ae463a99.svg" alt="" height={26} width={45} />
           </Link>
@@ -28,19 +28,19 @@ function CollapsibleExample() {
             <Nav.Link className='me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2'>
               <NavLink className='navlink' to={"/handheld"}>Handheld</NavLink>
             </Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>
               <NavLink className='navlink' to={"/power"}>Power</NavLink>
             </Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>
               <NavLink className='navlink' to={"/education-industry"}>Education & Industry</NavLink>
             </Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Services</Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Accessories</Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#pricing" style={{ color: "#303233", fontSize: "14px" }}>Official Refurbished</Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>Services</Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>Accessories</Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>Official Refurbished</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#deets" style={{ color: "#303233", fontSize: "20px" }}><FiSearch /></Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' href="#deets">
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "20px" }}><FiSearch /></Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2'>
               <NavLink className='navlink' to={"/cart"} style={{ color: "#303233", fontSize: "20px" }}><BsCart2 /></NavLink>
             </Nav.Link>
             <Nav.Link className='nav-link p-3 pt-2 pb-2 p-lg-2 ps-sm-0 pe-sm-0'>

@@ -9,6 +9,10 @@ const Store = () => {
 
   const [data, setData] = useState([]);
   const [page, setPage] = useState(1);
+
+  // const [itemsPerPage, setItemsPerPage] = useState(48); // Default limit
+  // const [totalPages, setTotalPages] = useState(0);
+
   const [order, setOrder] = useState(null);
   const [series, setSeries] = useState(null);
   const [type, setType] = useState(null);
@@ -16,18 +20,21 @@ const Store = () => {
 
   const getDataFromServer = () => {
     axios.get(`http://localhost:3000/products`, {
-      params : {
-        _page : page,
-        _limit : 48,
-        series : series,
-        type : type,
-        _sort : "price",
-        _order : order
+      params: {
+        _page: page,
+        _limit: 48,
+        series: series,
+        type: type,
+        _sort: "price",
+        _order: order
       }
     })
       .then((res) => setData(res.data))
       .catch((err) => console.log(err))
   }
+
+  // const total = Math.ceil(data.length / itemsPerPage);
+  // setTotalPages(total);
 
   // For Series Filter
   const handleChange = (e) => {
@@ -64,23 +71,23 @@ const Store = () => {
                   <div id="flush-collapseOne" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI Mavic 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mavic 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mavic 3 Pro</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI Mavic 3 Classic"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mavic 3 Classic"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mavic 3 Classic</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI Mavic 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mavic 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mavic 3</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"Mavic 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"Mavic 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">Mavic 2</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"Mavic Pro"} type="radio"  onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"Mavic Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">Mavic Pro</label>
                       </div>
                     </div>
@@ -95,19 +102,19 @@ const Store = () => {
                   <div id="flush-collapseTwo" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI Air 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Air 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Air 3</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI Air 2S"}  type="radio"  onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Air 2S"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Air 2S</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"Mavic Air 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"Mavic Air 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">Mavic Air 2</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"Mavic Air"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"Mavic Air"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">Mavic Air</label>
                       </div>
                     </div>
@@ -122,31 +129,31 @@ const Store = () => {
                   <div id="flush-collapseThree" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI Mini 4 Pro"} type="radio"  onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mini 4 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mini 4 Pro</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI Mini 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mini 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mini 3 Pro</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI Mini 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mini 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mini 3</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI Mini 2 SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mini 2 SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mini 2 SE</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI Mini 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mini 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mini 2</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI Mini SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Mini SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Mini SE</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"Mavic Mini"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"Mavic Mini"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">Mavic Mini</label>
                       </div>
                     </div>
@@ -161,11 +168,11 @@ const Store = () => {
                   <div id="flush-collapseFour" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-1 pb-1 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI Avata 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Avata 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Avata 2</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI Avata"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Avata"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Avata</label>
                       </div>
                     </div>
@@ -180,11 +187,11 @@ const Store = () => {
                   <div id="flush-collapseFive" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI FPV"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI FPV"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI FPV</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI 03 Air Unit"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI 03 Air Unit"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI 03 Air Unit</label>
                       </div>
                     </div>
@@ -199,11 +206,11 @@ const Store = () => {
                   <div id="flush-collapseSix" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-1 pb-1 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI Inspire 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"DJI Inspire 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">DJI Inspire 3</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"Inspire 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"Inspire 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">Inspire 2</label>
                       </div>
                     </div>
@@ -218,7 +225,7 @@ const Store = () => {
                   <div id="flush-collapseSeven" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"Phantom 4"} type="radio" onChange={(e) => handleChange(e)} name="product-series"/>
+                        <input className='me-2' value={"Phantom 4"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                         <label htmlFor="">Phantom 4 Series</label>
                       </div>
                     </div>
@@ -229,15 +236,15 @@ const Store = () => {
             <div className='pt-3 pb-3 ps-1 ps-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
               <h6 className='mb-3'>Product Types</h6>
               <div className='pt-2 pb-2 d-flex align-items-center'>
-                <input className='me-2' value={"main-product"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type"/>
+                <input className='me-2' value={"main-product"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type" />
                 <label htmlFor="">Main Products</label>
               </div>
               <div className='pt-2 pb-2 d-flex align-items-center'>
-                <input className='me-2' value={"accessory"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type"/>
+                <input className='me-2' value={"accessory"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type" />
                 <label htmlFor="">Accessory</label>
               </div>
               <div className='pt-2 pb-2 d-flex align-items-center'>
-                <input className='me-2' value={"service"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type"/>
+                <input className='me-2' value={"service"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type" />
                 <label htmlFor="">Services</label>
               </div>
             </div>

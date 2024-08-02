@@ -2358,63 +2358,72 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/fbf35cbebded2b1467c01d90fd4d8c44@xlarge.png",
       "title" : "DJI Power 1000",
       "price" : 699,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 2,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/6b6342173563e59b7dc380d08ddbb5e7@xlarge.png",
       "title" : "DJI Power 500",
       "price" : 379,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 500"
     },
     {
       "id" : 3,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/d8f241773d882a35a745ff13d0d82542@xlarge.png",
       "title" : "DJI Power 1000 & 100W Solar Panel × 1",
       "price" : 1047,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 4,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/1213e9f75f7cceabc086787619a7ac80@xlarge.png",
       "title" : "DJI Power 1000 & 100W Solar Panel × 2",
       "price" : 1356,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 5,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/5be9b66741bfdefc30fa8bb7b0cec546@xlarge.png",
       "title" : "DJI Power 1000 & 100W Solar Panel × 6",
       "price" : 2611,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 6,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/6903168e03fd1df2a43b93b1cdbc0431@xlarge.png",
       "title" : "DJI Power 1000 Car Power Combo",
       "price" : 770,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 7,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/8306ee6d1d0cdc772d8dd6d16ca45cda@xlarge.png",
       "title" : "DJI Power 500 Car Power Combo",
       "price" : 450,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 500"
     },
     {
       "id" : 8,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/543a0a4897c77461154bc8c39803ddce@xlarge.png",
       "title" : "DJI Power 500 & 100W Solar Panel × 1",
       "price" : 727,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 500"
     },
     {
       "id" : 9,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/8e96d0b1d4fbbf630c3afad9c2524322@xlarge.png",
       "title" : "DJI Power 1000 & 100W Solar Panel × 3",
       "price" : 1655,
-      "type" : "main-product"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 10,
@@ -2498,7 +2507,8 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/a60ef8cc29c12a6287d7b8a0227fa502@xlarge.png",
       "title" : "DJI Power 1000 Protective Storage Bag",
       "price" : 99,
-      "type" : "accessory"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 22,
@@ -2519,42 +2529,48 @@
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/1ad369a55731972f462a8a435097d933@xlarge.png",
       "title" : "DJI Power 1000 + DJI Power SDC to DJI Inspire 3 Fast Charge Cable",
       "price" : 718,
-      "type" : "accessory"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 25,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/497929a74bdd32c89f1ac9e7baafee73@xlarge.png",
       "title" : "DJI Power 1000 + DJI Power SDC to DJI Air 3 Fast Charge Cable",
       "price" : 718,
-      "type" : "accessory"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 26,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/e51444f66e1a96cd073cc8aad3847053@xlarge.png",
       "title" : "DJI Power 1000 + DJI Power SDC to DJI Mavic 3 Series Fast Charge Cable",
       "price" : 718,
-      "type" : "accessory"
+      "type" : "main-product",
+      "series" : "DJI Power 1000"
     },
     {
       "id" : 27,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/9c0faf2a83cdda6aadb56c18d93a2e28@xlarge.png",
       "title" : "DJI Power 500 + DJI Power SDC to DJI Inspire 3 Fast Charge Cable",
       "price" : 398,
-      "type" : "accessory"
+      "type" : "main-product",
+      "series" : "DJI Power 500"
     },
     {
       "id" : 28,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/68171822ce69b9ad4961b3fee448cb60@xlarge.png",
       "title" : "DJI Power 500 + DJI Power SDC to DJI Air 3 Fast Charge Cable",
       "price" : 398,
-      "type" : "accessory"
+      "type" : "main-product",
+      "series" : "DJI Power 500"
     },
     {
       "id" : 29,
       "image" : "https://se-cdn.djiits.com/tpc/uploads/spu_bundle/cover/cec0775695800bd2c3e49bc4ff219e12@xlarge.png",
       "title" : "DJI Power 500 + DJI Power SDC to DJI Mavic 3 Series Fast Charge Cable",
       "price" : 398,
-      "type" : "accessory"
+      "type" : "main-product",
+      "series" : "DJI Power 500"
     }
   ],
   "enterprise" : [

@@ -8,12 +8,16 @@ import { Link } from 'react-router-dom';
 const Power = () => {
   const [data, setData] = useState([]);
   const [order, setOrder] = useState(null);
+  const [series, setSeries] = useState(null);
+  const [type, setType] = useState(null);
 
   const getDataFromServer = () => {
     axios.get(`http://localhost:3000/power?`, {
       params : {
         _sort : "price",
-        _order : order
+        _order : order,
+        series : series,
+        type : type,
       }
     })
       .then((res) => setData(res.data))
@@ -22,7 +26,7 @@ const Power = () => {
 
   useEffect(() => {
     getDataFromServer();
-  }, [order])
+  }, [order, series, type])
 
   return (
     <>
@@ -48,11 +52,11 @@ const Power = () => {
                   <div id="flush-collapseOne" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' type="checkbox" />
+                        <input className='me-2' value={"DJI Power 1000"} type="radio"  onChange={(e) => setSeries(e.target.value)} name="product-series"/>
                         <label htmlFor="">DJI Power 1000</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' type="checkbox" />
+                        <input className='me-2' value={"DJI Power 500"} type="radio"  onChange={(e) => setSeries(e.target.value)} name="product-series"/>
                         <label htmlFor="">DJI Power 500</label>
                       </div>
                     </div>
@@ -63,11 +67,11 @@ const Power = () => {
             <div className='pt-3 pb-3 ps-1 ps-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
               <h6 className='mb-3'>Product Types</h6>
               <div className='pt-2 pb-2 d-flex align-items-center'>
-                <input className='me-2' type="checkbox" />
+                <input className='me-2' value={"main-product"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type"/>
                 <label htmlFor="">Main Products</label>
               </div>
               <div className='pt-2 pb-2 d-flex align-items-center'>
-                <input className='me-2' type="checkbox" />
+                <input className='me-2' value={"accessory"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type"/>
                 <label htmlFor="">Accessory</label>
               </div>
             </div>
