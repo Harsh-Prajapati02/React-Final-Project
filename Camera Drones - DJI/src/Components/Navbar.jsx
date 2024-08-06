@@ -36,7 +36,6 @@ function CollapsibleExample() {
             </Nav.Link>
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>Services</Nav.Link>
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>Accessories</Nav.Link>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>Official Refurbished</Nav.Link>
           </Nav>
           <Nav>
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "20px" }}><FiSearch /></Nav.Link>

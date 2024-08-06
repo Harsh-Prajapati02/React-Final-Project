@@ -536,6 +536,43 @@
   box-shadow: 0 8px 16px #0000001a;
 }
 
+/* Description Page */
+.description-image {
+  height: 70vh;
+  position: sticky;
+  top: 0%;
+}
+
+.description-content h2 {
+  font-size: 32px;
+  color: #333333;
+  font-weight: 600;
+}
+
+.description-content span {
+  font-size: 22px;
+  color: #000000d9;
+  font-weight: 600;
+}
+
+.description-content h4 {
+  font-size: 26px;
+  color: #000000d9;
+  font-weight: 600;
+}
+
+.description-content h6 {
+  font-size: 14px;
+  color: #3b3e40;
+  font-weight: 600;
+}
+
+.description-content p {
+  font-size: 14px;
+  color: #000000a6;
+  font-weight: 500;
+}
+
 @media (min-width: 320px) and (max-width: 991px) {
 
   /* Header */

@@ -12,11 +12,16 @@ const Education = () => {
   const [order2, setOrder2] = useState(null);
   const [page, setPage] = useState(1);
 
+  const [series, setSeries] = useState(null);
+  const [type, setType] = useState(null);
+
   const getDataFromServer = () => {
     axios.get(`http://localhost:3000/enterprise`, {
       params : {
         _page : page,
         _limit : 48,
+        series: series,
+        type: type,
         _sort : "price",
         _order : order
       }
@@ -29,7 +34,8 @@ const Education = () => {
     axios.get(`http://localhost:3000/education?_page=${page}&_limit=48`, {
       params : {
         _page : page,
-        _limit : 48,
+        _limit : 48,series: series,
+        type: type,
         _sort : "price",
         _order : order2
       }
@@ -38,13 +44,20 @@ const Education = () => {
       .catch((err) => console.log(err))
   }
 
+  // For Series Filter
+  const handleChange = (e) => {
+    if (e.target.checked) {
+      setSeries(e.target.value)
+    }
+  }
+
   useEffect(() => {
     getDataFromServer();
-  }, [page, order])
+  }, [page, order, series, type])
 
   useEffect(() => {
     getDataFromServer2();
-  }, [page, order2])
+  }, [page, order2, series, type])
 
   return (
     <>
@@ -69,67 +82,63 @@ const Education = () => {
                 <div className='pb-3 ps-1 pe-1 ps-sm-0 pe-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
                   <h6 className='mb-3'>Product Series</h6>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
-                    <label htmlFor="">Matrice 350 RTX</label>
+                    <input className='me-2' value={"Matrice 350 RTK"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                    <label htmlFor="">Matrice 350 RTK</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"DJi Mavic 3 Enterprice"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">DJi Mavic 3 Enterprice</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"M30"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">M30</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"Payloads"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">Payloads</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"Mavic 2 Enterprice"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">Mavic 2 Enterprice</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
-                    <label htmlFor="">Phanthom 4 RTX</label>
+                    <input className='me-2' value={"Phantom 4 RTX"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                    <label htmlFor="">Phantom 4 RTX</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
-                    <label htmlFor="">Developer TOols</label>
+                    <input className='me-2' value={"Developer Tools"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                    <label htmlFor="">Developer Tools</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"M200 V2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">M200 V2</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"M300"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">M300</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"Software"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">Software</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"Flight Controllers"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">Flight Controllers</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"Livox"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">Livox</label>
                   </div>
                 </div>
                 <div className='pt-3 pb-3 ps-1 ps-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
                   <h6 className='mb-3'>Product Types</h6>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"main-product"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type" />
                     <label htmlFor="">Main Products</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"accessory"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type" />
                     <label htmlFor="">Accessory</label>
-                  </div>
-                  <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
-                    <label htmlFor="">Services</label>
                   </div>
                 </div>
               </div>
@@ -149,7 +158,7 @@ const Education = () => {
                     {data.map((el) => (
                       <div key={el.id} className="product col-12 ps-2 pe-2 mb-3 col-sm-6 col-lg-4">
                         <div style={{ backgroundColor: "#f5f5f5" }}>
-                          <Link className='d-flex justify-content-center' to={"/description"}>
+                          <Link className='d-flex justify-content-center'  to={`/description/${el.id}`}>
                             <img className='product-img' src={el.image} alt="" />
                           </Link>
                           <div className="p-3 pt-0 p-sm-4">
@@ -167,15 +176,6 @@ const Education = () => {
                       <p className='mb-0'>{page}</p>
                       <button className='ms-4' onClick={() => setPage(page + 1)} disabled={page == 3}>Next</button>
                     </div>
-                    {/* <div className="product col-4 ps-2 pe-2 mb-3">
-                <div style={{ backgroundColor: "#f5f5f5" }}>
-                  <img src="https://se-cdn.djiits.com/tpc/uploads/spu/cover/7820c86b51011167f9a8221353e20518@xlarge.png" height={272} alt="" />
-                  <div className="p-4">
-                    <h6>DJI Avata 2 Fly More Combo (Single Battery)</h6>
-                    <p className='d-flex align-items-center'>USD $<h4>2199</h4></p>
-                  </div>
-                </div>
-              </div> */}
                   </div>
                 </div>
               </div>
@@ -191,34 +191,30 @@ const Education = () => {
                 <div className='pb-3 ps-1 pe-1 ps-sm-0 pe-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
                   <h6 className='mb-3'>Product Series</h6>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"RoboMaster S1"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">RoboMaster S1</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"RoboMaster TT"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">RoboMaster TT</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
-                    <label htmlFor="">RoboMaster EP</label>
-                  </div>
-                  <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"RoboMaster"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">RoboMaster</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"Tello"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                     <label htmlFor="">Tello</label>
                   </div>
                 </div>
                 <div className='pt-3 pb-3 ps-1 ps-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
                   <h6 className='mb-3'>Product Types</h6>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"main-product"} type="radio"  onChange={(e) => setType(e.target.value)} name="product-type" />
                     <label htmlFor="">Main Products</label>
                   </div>
                   <div className='pt-2 pb-2 d-flex align-items-center'>
-                    <input className='me-2' type="checkbox" />
+                    <input className='me-2' value={"accessory"} type="radio"  onChange={(e) => setType(e.target.value)} name="product-type" />
                     <label htmlFor="">Accessory</label>
                   </div>
                 </div>
@@ -239,7 +235,7 @@ const Education = () => {
                     {data2.map((el) => (
                       <div key={el.id} className="product col-12 ps-2 pe-2 mb-3 col-sm-6 col-lg-4">
                         <div style={{ backgroundColor: "#f5f5f5" }}>
-                          <Link className='d-flex justify-content-center' to={"/description"}>
+                          <Link className='d-flex justify-content-center' to={`/description/${el.id}`}>
                             <img className='product-img' src={el.image} alt="" />
                           </Link>
                           <div className="p-3 pt-0 p-sm-4">
