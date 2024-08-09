@@ -18,7 +18,7 @@ const Service = () => {
     // console.log(name)
 
     const getDataFromServer = () => {
-        axios.get(`http://localhost:3000/products`, {
+        axios.get(`http://localhost:3000/service`, {
             params: {
                 _page: page,
                 _limit: 48,
@@ -208,15 +208,15 @@ const Service = () => {
                                     <div id="flush-collapseSeven" className="accordion-collapse collapse">
                                         <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini 4 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Osmo Action 4"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Osmo Action 4</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Osmo Action 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Osmo Action 3</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI Action 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI Action 2</label>
                                             </div>
                                         </div>
@@ -231,11 +231,11 @@ const Service = () => {
                                     <div id="flush-collapseEight" className="accordion-collapse collapse">
                                         <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini 4 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Osmo Pocket 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Osmo Pocket 3</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI Pocket 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI Pocket 2</label>
                                             </div>
                                         </div>
@@ -250,20 +250,20 @@ const Service = () => {
                                     <div id="flush-collapseNine" className="accordion-collapse collapse">
                                         <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini 4 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Osmo Mobile 6"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Osmo Mobile 6</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Osmo Mobile SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Osmo Mobile SE</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
-                                                <label htmlFor="">Osmo Mobile 5</label>
+                                                <input className='me-2' value={"DJI OM 5"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <label htmlFor="">DJI OM 5</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 2 SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
-                                                <label htmlFor="">Osmo Mobile 4 SE</label>
+                                                <input className='me-2' value={"DJI OM 4 SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <label htmlFor="">DJI OM 4 SE</label>
                                             </div>
                                         </div>
                                     </div>
@@ -277,7 +277,7 @@ const Service = () => {
                                     <div id="flush-collapseTen" className="accordion-collapse collapse">
                                         <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini 4 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI Ronin 4D"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI Ronin 4D</label>
                                             </div>
                                         </div>
@@ -292,31 +292,31 @@ const Service = () => {
                                     <div id="flush-collapseEleven" className="accordion-collapse collapse">
                                         <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini 4 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI RS 4 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI RS 4 Pro</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI RS 4"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI RS 4</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI RS 3 Mini"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI RS 3 Mini</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 2 SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI RS 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI RS 3 Pro</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI RS 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI RS 3</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI RS 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI RS 2</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"Mavic Mini"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI RSC 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI RSC 2</label>
                                             </div>
                                         </div>
@@ -331,31 +331,31 @@ const Service = () => {
                                     <div id="flush-collapseTwelve" className="accordion-collapse collapse">
                                         <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini 4 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Matrice 350 RTK"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Matrice 350 RTK</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3 Pro"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"DJI Mavic 3 Enterprise"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">DJI Mavic 3 Enterprise</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 3"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"M30"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">M30</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex'>
-                                                <input className='me-2' value={"DJI Mini 2 SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Payloads"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Payloads</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini 2"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Mavic 2 Enterprise"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Mavic 2 Enterprise</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"DJI Mini SE"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"Phantom 4 RTK"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">Phantom 4 RTK RS 2</label>
                                             </div>
                                             <div className='pt-2 pb-2 d-flex align-items-center'>
-                                                <input className='me-2' value={"Mavic Mini"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
+                                                <input className='me-2' value={"M300"} type="radio" onChange={(e) => handleChange(e)} name="product-series" />
                                                 <label htmlFor="">M300</label>
                                             </div>
                                         </div>
