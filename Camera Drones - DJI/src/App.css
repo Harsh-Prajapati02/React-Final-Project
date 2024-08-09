@@ -437,6 +437,18 @@
   top: 0%;
 }
 
+.service-filter {
+  height: 100vh;
+  position: sticky;
+  top: 0%;
+  overflow-y: auto;
+}
+
+.service-filter::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
 .filter h5 {
   font-size: 18px;
   color: #000;
@@ -534,6 +546,19 @@
   height: 40px;
   border-radius: 50%;
   box-shadow: 0 8px 16px #0000001a;
+}
+
+.pagination-btn {
+  border: none;
+  padding: 8px 30px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 2px solid #f5f5f5;
+  transition: all 0.4s;
+}
+
+.pagination-btn:hover {
+  background-color: #fff;
 }
 
 /* Description Page */
@@ -680,7 +705,7 @@
   }
 
   .product-list .sort {
-    width: 72%;
+    width: 82%;
   }
   
 }

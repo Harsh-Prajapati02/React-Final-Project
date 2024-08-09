@@ -3933,5 +3933,895 @@
       "type" : "accessory",
       "series" : "Tello"
     }
+  ],
+  "service" : [
+    {
+      "id" : 1,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 2,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 3,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 4,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 5,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 6,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 7,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 8,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 9,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 10,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 11,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 12,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 13,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 14,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 15,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 16,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 17,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 18,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 19,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 20,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 21,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 22,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 23,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 24,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 25,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 26,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 27,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 28,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 29,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 30,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 31,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 32,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 33,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 34,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 35,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 36,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 37,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 38,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 39,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 40,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "License Key",
+      "series" : ""
+    },
+    {
+      "id" : 41,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "License Key",
+      "series" : ""
+    },
+    {
+      "id" : 42,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "License Key",
+      "series" : ""
+    },
+    {
+      "id" : 43,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "License Key",
+      "series" : ""
+    },
+    {
+      "id" : 44,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "License Key",
+      "series" : ""
+    },
+    {
+      "id" : 45,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 46,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 47,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 48,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 49,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 50,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 51,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 52,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 53,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 54,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 55,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 56,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 57,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 58,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 59,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 60,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 61,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 62,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 63,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 64,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Pro",
+      "series" : ""
+    },
+    {
+      "id" : 65,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Pro",
+      "series" : ""
+    },
+    {
+      "id" : 66,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Pro",
+      "series" : ""
+    },
+    {
+      "id" : 67,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Pro",
+      "series" : ""
+    },
+    {
+      "id" : 68,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 69,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 70,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 71,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 72,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 73,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 74,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 75,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "DJI Care Refresh",
+      "series" : ""
+    },
+    {
+      "id" : 76,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 77,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 78,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 79,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 80,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 81,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 82,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 83,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 84,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 85,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 86,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 87,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 88,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 89,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 90,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 91,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 92,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 93,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 94,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 95,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 96,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 97,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 98,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 99,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 100,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 101,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 102,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 103,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 104,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 105,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 106,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 107,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 108,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 109,
+      "image" : "",
+      "title" : "",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : ""
+    },
+    {
+      "id" : 110,
+      "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/9a372a613ba86e9da986290e3695175c@xlarge.png",
+      "title" : "Renewed DJI Care Enterprise Basic (M30)",
+      "price" : 549,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : "M30"
+    },
+    {
+      "id" : 111,
+      "image" : "https://se-cdn.djiits.com/tpc/uploads/spu/cover/57eeb1aa44ee31b09f855e91f3da5ac5@xlarge.png",
+      "title" : "Renewed DJI Care Enterprise Basic (Mavic 2 Enterprise Advanced)",
+      "price" : 599,
+      "type" : "Renewed DJI Care Enterprise",
+      "series" : "Mavic 2 Enterprice"
+    }
   ]
 }

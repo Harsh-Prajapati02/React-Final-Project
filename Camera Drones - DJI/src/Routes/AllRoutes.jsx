@@ -8,6 +8,7 @@ import Description from '../Pages/Description'
 import Power from '../Pages/Power'
 import Education from '../Pages/Education'
 import Cart from '../Pages/Cart'
+import Service from '../Pages/Service'
 
 const AllRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AllRoutes = () => {
         <Route path='/store' element={<Store />}></Route>
         <Route path='/power' element={<Power />}></Route>
         <Route path='/education-industry' element={<Education />}></Route>
+        <Route path='/service' element={<Service />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/cart' element={<Cart />}></Route>
         <Route path='/description/:id' element={<Description />}></Route>

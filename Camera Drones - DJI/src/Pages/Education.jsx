@@ -172,9 +172,9 @@ const Education = () => {
                       </div>
                     ))}
                     <div className='d-flex justify-content-center align-items-center p-4'>
-                      <button className='me-4' onClick={() => setPage(page - 1)} disabled={page == 1}>Prev</button>
-                      <p className='mb-0'>{page}</p>
-                      <button className='ms-4' onClick={() => setPage(page + 1)} disabled={page == 3}>Next</button>
+                      <button className='me-4 pagination-btn' onClick={() => setPage(page - 1)} disabled={page == 1}>Prev</button>
+                      <p className='mb-0' style={{fontSize:"18px", fontWeight:"700"}}>{page}</p>
+                      <button className='ms-4 pagination-btn' onClick={() => setPage(page + 1)} disabled={page == 3}>Next</button>
                     </div>
                   </div>
                 </div>
@@ -249,9 +249,9 @@ const Education = () => {
                       </div>
                     ))}
                     <div className='d-flex justify-content-center align-items-center p-4'>
-                      <button className='me-4' onClick={() => setPage(page - 1)} disabled={page == 1}>Prev</button>
-                      <p className='mb-0'>{page}</p>
-                      <button className='ms-4' onClick={() => setPage(page + 1)}>Next</button>
+                      <button className='me-4 pagination-btn' onClick={() => setPage(page - 1)} disabled={page == 1}>Prev</button>
+                      <p className='mb-0' style={{fontSize:"18px", fontWeight:"700"}}>{page}</p>
+                      <button className='ms-4 pagination-btn' onClick={() => setPage(page + 1)}>Next</button>
                     </div>
                   </div>
                 </div>

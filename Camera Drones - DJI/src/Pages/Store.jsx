@@ -4,7 +4,6 @@ import Footer from '../Components/Footer';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
 import { Link } from 'react-router-dom';
 
-
 const Store = () => {
 
   const [data, setData] = useState([]);
@@ -279,9 +278,9 @@ const Store = () => {
                   </div>
                 ))}
                 <div className='d-flex justify-content-center align-items-center p-4'>
-                  <button className='me-4' onClick={() => setPage(page - 1)} disabled={page == 1}>Prev</button>
-                  <p className='mb-0'>{page}</p>
-                  <button className='ms-4' onClick={() => setPage(page + 1)} disabled={page == 7}>Next</button>
+                  <button className='me-4 pagination-btn' onClick={() => setPage(page - 1)} disabled={page == 1}>Prev</button>
+                  <p className='mb-0 page-count' style={{fontSize:"18px", fontWeight:"700"}}>{page}</p>
+                  <button className='ms-4 pagination-btn' onClick={() => setPage(page + 1)} disabled={page == 7}>Next</button>
                 </div>
               </div>
             </div>
