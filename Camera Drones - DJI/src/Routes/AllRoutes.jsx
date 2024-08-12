@@ -9,6 +9,10 @@ import Power from '../Pages/Power'
 import Education from '../Pages/Education'
 import Cart from '../Pages/Cart'
 import Service from '../Pages/Service'
+import PowerDescription from '../Pages/PowerDescription'
+import EducationDescription from '../Pages/EducationDescription'
+import EnterpriseDescription from '../Pages/EnterpriseDescription'
+import ServiceDescription from '../Pages/ServiceDescription'
 
 const AllRoutes = () => {
   return (
@@ -22,6 +26,10 @@ const AllRoutes = () => {
         <Route path='/login' element={<Login />}></Route>
         <Route path='/cart' element={<Cart />}></Route>
         <Route path='/description/:id' element={<Description />}></Route>
+        <Route path='/power-description/:id' element={<PowerDescription />}></Route>
+        <Route path='/education-description/:id' element={<EducationDescription />}></Route>
+        <Route path='/enterprise-description/:id' element={<EnterpriseDescription />}></Route>
+        <Route path='/service-description/:id' element={<ServiceDescription />}></Route>
     </Routes>
   )
 }

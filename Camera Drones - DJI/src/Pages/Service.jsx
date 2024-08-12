@@ -399,7 +399,7 @@ const Service = () => {
                                 {data.map((el) => (
                                     <div key={el.id} className="product col-12 ps-2 pe-2 mb-3 col-sm-6 col-lg-4">
                                         <div style={{ backgroundColor: "#f5f5f5" }}>
-                                            <Link className='d-flex justify-content-center' to={`/description/${el.id}`}>
+                                            <Link className='d-flex justify-content-center' to={`/service-description/${el.id}`}>
                                                 <img className='product-img' src={el.image} alt="" />
                                             </Link>
                                             <div className="p-3 pt-0 p-sm-4">
@@ -414,8 +414,8 @@ const Service = () => {
                                 ))}
                                 <div className='d-flex justify-content-center align-items-center p-4'>
                                     <button className='me-4 pagination-btn' onClick={() => setPage(page - 1)} disabled={page == 1}>Prev</button>
-                                    <p className='mb-0 page-count' style={{ fontSize: "18px", fontWeight: "700" }}>{page}</p>
-                                    <button className='ms-4 pagination-btn' onClick={() => setPage(page + 1)} disabled={page == 7}>Next</button>
+                                    <p className='mb-0 page-count' style={{ fontSize: "16px", fontWeight: "700" }}>{page}</p>
+                                    <button className='ms-4 pagination-btn' onClick={() => setPage(page + 1)} disabled={page == 3}>Next</button>
                                 </div>
                             </div>
                         </div>
