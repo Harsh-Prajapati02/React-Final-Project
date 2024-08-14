@@ -9,7 +9,7 @@ const Footer = () => {
         <>
             <div className='container-fluid p-0 pb-4 pt-4 ps-sm-0 pe-sm-0 ps-xxl-5 pe-xxl-5' style={{ backgroundColor: "#272727" }}>
                 <div className="footer container pt-2 ps-5 pe-5 pb-5 d-none d-lg-block ps-lg-0 pe-lg-0 ps-xxl-5 pe-xxl-5">
-                    <div className="row ps-3 pe-3">
+                    <div className="row ps-0 pe-0">
                         <div className="col-2 me-5 d-flex flex-column me-lg-4 me-xl-5">
                             <p className='mb-2'>Product Categories</p>
                             <a className='mb-2' href="">Consumer</a>

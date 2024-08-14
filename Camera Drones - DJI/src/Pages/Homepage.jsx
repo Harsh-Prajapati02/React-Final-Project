@@ -98,14 +98,14 @@ const Homepage = () => {
       <div className='comparison-section container pb-4 pb-lg-5'>
         <h1 className='text-center mb-4 mt-sm-3 mt-md-4 mt-xl-2'>Which camera drone is right for you?</h1>
         <nav className='d-flex justify-content-center'>
-          <div class="nav nav-tabs" id="nav-tab" role="tablist">
-            <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+          <div className="nav nav-tabs" id="nav-tab" role="tablist">
+            <button className="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">
               Aerial Imaging</button>
-            <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Immersive Flight</button>
+            <button className="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Immersive Flight</button>
           </div>
         </nav>
-        <div class="tab-content" id="nav-tabContent">
-          <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div className="tab-content" id="nav-tabContent">
+          <div className="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
             <div className='container-fluid p-0 p-sm-0 ps-xl-5 pe-xl-5'>
               <div className="row pb-4" style={{ borderBottom: "2px solid #f0f0f0" }}>
                 <div className="comparison-drone col-6 d-flex flex-column align-items-center col-sm-3">
@@ -294,7 +294,7 @@ const Homepage = () => {
               </div>
             </div>
           </div>
-          <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+          <div className="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
             <div className='container-fluid ps-0 pe-0 p-sm-0 ps-md-5 pe-md-5 ps-lg-5 pe-lg-5'>
               <div className="row justify-content-center pb-4" style={{ borderBottom: "2px solid #f0f0f0" }}>
                 <div className="comparison-drone col-6 d-flex flex-column align-items-center col-sm-4 col-xl-3">

@@ -33,13 +33,16 @@ const Description = () => {
     getSingleData()
   }, [])
 
-  // const postData = () => {
-  //   axios.post(`http://localhost:3000/cart/${params.id}`)
-  //     .then((res) => console.log(res))
-  //     .catch((err) => console.log(err))
-  // }
+  const postData = () => {
+    axios.post("http://localhost:3000/cart", data)
+      .then((res) => {
+        alert("Added Successfully...")
+        console.log(res.data)
+      })
+      .catch((err) => console.log(err))
+  }
 
-  const { title, price } = data
+  const { title, price, slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8 } = data
 
   return (
     <>
@@ -61,28 +64,28 @@ const Description = () => {
               className="mySwiper2"
             >
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/2422b00fb971de7d9ae7b0d032d9c81b@ultra.jpg" />
+                <img src={slide1} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/faff4eb64b0a0e74c4974cad5822f2e4@ultra.jpg" />
+                <img src={slide2} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/2990f5b73b8f31d1167b6eeb990599f6@ultra.jpg" />
+                <img src={slide3} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/d176e4137c9d08cb905aaebefdd21367@ultra.jpg" />
+                <img src={slide4} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/de5b9fa710d19923e6efad22168cba73@ultra.jpg" />
+                <img src={slide5} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/8dcc781bfbd7cfcbb5f0d52ec5f9905a@ultra.jpg" />
+                <img src={slide6} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/72cb96fe6305349e91d638c6075afe9b@ultra.jpg" />
+                <img src={slide7} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/a8aec5c94d8ebf70c85539109954b7a1@ultra.jpg" />
+                <img src={slide8} />
               </SwiperSlide>
             </Swiper>
             <Swiper
@@ -95,28 +98,28 @@ const Description = () => {
               className="mySwiper"
             >
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/2422b00fb971de7d9ae7b0d032d9c81b@ultra.jpg" />
+                <img src={slide1} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/faff4eb64b0a0e74c4974cad5822f2e4@ultra.jpg" />
+                <img src={slide2} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/2990f5b73b8f31d1167b6eeb990599f6@ultra.jpg" />
+                <img src={slide3} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/d176e4137c9d08cb905aaebefdd21367@ultra.jpg" />
+                <img src={slide4} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/de5b9fa710d19923e6efad22168cba73@ultra.jpg" />
+                <img src={slide5} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/8dcc781bfbd7cfcbb5f0d52ec5f9905a@ultra.jpg" />
+                <img src={slide6} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/72cb96fe6305349e91d638c6075afe9b@ultra.jpg" />
+                <img src={slide7} />
               </SwiperSlide>
               <SwiperSlide>
-                <img src="https://se-cdn.djiits.com/tpc/uploads/carousel/image/a8aec5c94d8ebf70c85539109954b7a1@ultra.jpg" />
+                <img src={slide8} />
               </SwiperSlide>
             </Swiper>
           </div>
@@ -146,7 +149,7 @@ const Description = () => {
       <div className='description-images p-0 pt-4 text-center ps-sm-0 pe-sm-0 pt-sm-4 ps-md-3 pe-md-3 pt-lg-5 p-xxl-5'>
         <h2 className='description-images-title mb-1 mb-sm-0'>Take a Closer Look</h2>
         <div className="row justify-content-center">
-          <div className="col-12 p-0 pt-4 pb-4 col-sm-12 p-sm-4 pe-sm-3 col-lg-10 pt-lg-5 col-xxl-8">
+          <div className="col-12 p-0 pt-4 pb-4 col-sm-12 p-sm-4 pe-sm-3 col-lg-10 pt-lg-5 col-xxl-8 p-xl-5">
             <img className='description-image1' src="https://se-cdn.djiits.com/tpc/uploads/image/file/99057e014f27e102ed4c8fce04914b53@origin.jpg" alt="" />
             <img className='description-image2' src="https://se-cdn.djiits.com/tpc/uploads/image/file/94b0f1f471b80bf634cc4fd846a1a95c@origin.jpg" alt="" />
             <img className='description-image3' src="https://se-cdn.djiits.com/tpc/uploads/image/file/6048af804cf6d48487027ea347e24ca7@origin.jpg" alt="" />
@@ -164,7 +167,7 @@ const Description = () => {
 
       <div className='add-to-cart p-3 d-flex justify-content-center'>
         <Link to={"/cart"}>
-          <button className='add-to-cart-btn'>Add To Cart</button>
+          <button onClick={postData} className='add-to-cart-btn'>Add To Cart</button>
         </Link>
       </div>
     </>
