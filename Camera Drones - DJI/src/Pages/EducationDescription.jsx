@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Footer from '../Components/Footer'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -37,9 +38,6 @@ const EducationDescription = () => {
             <div className="container description p-3 pt-2 p-sm-2 pt-sm-3 pt-lg-2 pt-xl-4 p-xxl-5" style={{ borderBottom: "2px solid #f5f5f5" }}>
                 <div className="row p-2 pt-1 p-sm-2">
                     <div className="description-slider col-12 ps-0 pb-1 pe-0 col-sm-12 ps-sm-0 pe-sm-0 pb-sm-3 ps-md-5 pe-md-5 col-lg-6 ps-lg-0 pe-lg-4 pb-lg-0 ps-xl-5 pe-xl-5">
-                        {/* <div className="des-prod-img d-flex justify-content-center">
-                  <img src={image} height={500} alt="" />
-                </div> */}
                         <Swiper
                             style={{
                                 '--swiper-navigation-color': 'lightgray',
@@ -150,8 +148,16 @@ const EducationDescription = () => {
                     </div>
                 </div>
             </div>
+
             <Footer />
-            <CartBtn />
+
+            {/* Cart Button */}
+            <div className='add-to-cart p-3 d-flex justify-content-center'>
+                <Link to={"/cart"}>
+                    <button className='add-to-cart-btn'>Add To Cart</button>
+                </Link>
+            </div>
+
         </>
     )
 }

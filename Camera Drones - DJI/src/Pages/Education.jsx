@@ -235,7 +235,7 @@ const Education = () => {
                     {data2.map((el) => (
                       <div key={el.id} className="product col-12 ps-2 pe-2 mb-3 col-sm-6 col-lg-4">
                         <div style={{ backgroundColor: "#f5f5f5" }}>
-                          <Link className='d-flex justify-content-center' to={`/education-descriptionenterprise-description/${el.id}`}>
+                          <Link className='d-flex justify-content-center' to={`/education-description/${el.id}`}>
                             <img className='product-img' src={el.image} alt="" />
                           </Link>
                           <div className="p-3 pt-0 p-sm-4">

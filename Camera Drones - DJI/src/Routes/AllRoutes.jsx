@@ -13,6 +13,7 @@ import PowerDescription from '../Pages/PowerDescription'
 import EducationDescription from '../Pages/EducationDescription'
 import EnterpriseDescription from '../Pages/EnterpriseDescription'
 import ServiceDescription from '../Pages/ServiceDescription'
+import Register from '../Pages/Register'
 
 const AllRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const AllRoutes = () => {
         <Route path='/education-industry' element={<Education />}></Route>
         <Route path='/service' element={<Service />}></Route>
         <Route path='/login' element={<Login />}></Route>
+        <Route path='/register' element={<Register />}></Route>
         <Route path='/cart' element={<Cart />}></Route>
         <Route path='/description/:id' element={<Description />}></Route>
         <Route path='/power-description/:id' element={<PowerDescription />}></Route>

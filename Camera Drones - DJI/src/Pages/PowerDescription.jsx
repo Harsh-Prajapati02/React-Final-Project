@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Footer from '../Components/Footer'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -151,7 +152,14 @@ const PowerDescription = () => {
                 </div>
             </div>
             <Footer />
-            <CartBtn />
+
+            {/* Cart Button */}
+            <div className='add-to-cart p-3 d-flex justify-content-center'>
+                <Link to={"/cart"}>
+                    <button className='add-to-cart-btn'>Add To Cart</button>
+                </Link>
+            </div>
+
         </>
     )
 }

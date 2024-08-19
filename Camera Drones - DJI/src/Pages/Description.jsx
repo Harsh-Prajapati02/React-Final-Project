@@ -15,7 +15,6 @@ import 'swiper/css/thumbs';
 
 // import required modules
 import { FreeMode, Navigation, Thumbs } from 'swiper/modules';
-import CartBtn from '../Components/CartBtn';
 
 const Description = () => {
 
@@ -37,7 +36,7 @@ const Description = () => {
     axios.post("http://localhost:3000/cart", data)
       .then((res) => {
         alert("Added Successfully...")
-        console.log(res.data)
+        // console.log(res.data)
       })
       .catch((err) => console.log(err))
   }
@@ -165,6 +164,7 @@ const Description = () => {
 
       <Footer />
 
+      {/* Cart Button */}
       <div className='add-to-cart p-3 d-flex justify-content-center'>
         <Link to={"/cart"}>
           <button onClick={postData} className='add-to-cart-btn'>Add To Cart</button>

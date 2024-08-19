@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Footer from '../Components/Footer'
 import axios from 'axios'
 import { useParams } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -34,7 +35,7 @@ const EnterpriseDescription = () => {
 
   return (
     <>
-      <div className="container description p-3 pt-2 p-sm-2 pt-sm-3 pt-lg-2 pt-xl-4 p-xxl-5" style={{borderBottom:"2px solid #f5f5f5"}}>
+      <div className="container description p-3 pt-2 p-sm-2 pt-sm-3 pt-lg-2 pt-xl-4 p-xxl-5" style={{ borderBottom: "2px solid #f5f5f5" }}>
         <div className="row p-2 pt-1 p-sm-2">
           <div className="description-slider col-12 ps-0 pb-1 pe-0 col-sm-12 ps-sm-0 pe-sm-0 pb-sm-3 ps-md-5 pe-md-5 col-lg-6 ps-lg-0 pe-lg-4 pb-lg-0 ps-xl-5 pe-xl-5">
             {/* <div className="des-prod-img d-flex justify-content-center">
@@ -138,20 +139,27 @@ const EnterpriseDescription = () => {
         <h2 className='description-images-title mb-1 mb-sm-0'>Take a Closer Look</h2>
         <div className="row justify-content-center">
           <div className="col-12 p-0 pt-4 pb-4 col-sm-12 p-sm-4 pe-sm-3 col-lg-10 pt-lg-5 col-xxl-8">
-              <img className='description-image1' src="https://se-cdn.djiits.com/tpc/uploads/image/file/99057e014f27e102ed4c8fce04914b53@origin.jpg" alt="" />
-              <img className='description-image2' src="https://se-cdn.djiits.com/tpc/uploads/image/file/94b0f1f471b80bf634cc4fd846a1a95c@origin.jpg" alt="" />
-              <img className='description-image3' src="https://se-cdn.djiits.com/tpc/uploads/image/file/6048af804cf6d48487027ea347e24ca7@origin.jpg" alt="" />
-              <img className='description-image4' src="https://se-cdn.djiits.com/tpc/uploads/image/file/02663997c5b90a3b16a907d59ef94b03@origin.jpg" alt="" />
-              <img className='description-image5' src="https://se-cdn.djiits.com/tpc/uploads/image/file/2f899d6abc7b00cc62fc8b87cf1d1eed@origin.jpg" alt="" />
-              <img className='description-image6' src="https://se-cdn.djiits.com/tpc/uploads/image/file/2591d998bf995c77f09cbf5d858c7788@origin.jpg" alt="" />
-              <img className='description-image7' src="https://se-cdn.djiits.com/tpc/uploads/image/file/e0a2fd6f271bb63b31c6c2bfd64e0552@origin.jpg" alt="" />
-              <img className='description-image8' src="https://se-cdn.djiits.com/tpc/uploads/image/file/4f69cb91b31866aa312f8fcbfb6d2fa6@origin.jpg" alt="" />
-              <img className='description-image9' src="https://se-cdn.djiits.com/tpc/uploads/image/file/3a20ba5d9bbe84969e96568890603c30@origin.jpg" alt="" />
+            <img className='description-image1' src="https://se-cdn.djiits.com/tpc/uploads/image/file/99057e014f27e102ed4c8fce04914b53@origin.jpg" alt="" />
+            <img className='description-image2' src="https://se-cdn.djiits.com/tpc/uploads/image/file/94b0f1f471b80bf634cc4fd846a1a95c@origin.jpg" alt="" />
+            <img className='description-image3' src="https://se-cdn.djiits.com/tpc/uploads/image/file/6048af804cf6d48487027ea347e24ca7@origin.jpg" alt="" />
+            <img className='description-image4' src="https://se-cdn.djiits.com/tpc/uploads/image/file/02663997c5b90a3b16a907d59ef94b03@origin.jpg" alt="" />
+            <img className='description-image5' src="https://se-cdn.djiits.com/tpc/uploads/image/file/2f899d6abc7b00cc62fc8b87cf1d1eed@origin.jpg" alt="" />
+            <img className='description-image6' src="https://se-cdn.djiits.com/tpc/uploads/image/file/2591d998bf995c77f09cbf5d858c7788@origin.jpg" alt="" />
+            <img className='description-image7' src="https://se-cdn.djiits.com/tpc/uploads/image/file/e0a2fd6f271bb63b31c6c2bfd64e0552@origin.jpg" alt="" />
+            <img className='description-image8' src="https://se-cdn.djiits.com/tpc/uploads/image/file/4f69cb91b31866aa312f8fcbfb6d2fa6@origin.jpg" alt="" />
+            <img className='description-image9' src="https://se-cdn.djiits.com/tpc/uploads/image/file/3a20ba5d9bbe84969e96568890603c30@origin.jpg" alt="" />
           </div>
         </div>
       </div>
       <Footer />
-      <CartBtn />
+
+      {/* Cart Button */}
+      <div className='add-to-cart p-3 d-flex justify-content-center'>
+        <Link to={"/cart"}>
+          <button className='add-to-cart-btn'>Add To Cart</button>
+        </Link>
+      </div>
+
     </>
   )
 }
