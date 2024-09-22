@@ -28,6 +28,16 @@ const Cart = () => {
       .catch((err) => console.log(err))
   }
 
+  const deleteProduct = (id) => {
+    axios.delete(`http://localhost:3000/cart/${id}`)
+      .then((res) => {
+        console.log(res.data)
+        alert("Product Deleted Successfully...")
+        getDataFromServer();
+      })
+      .catch((err) => console.log(err))
+  }
+
   useEffect(() => {
     getDataFromServer()
   }, [])
@@ -114,7 +124,7 @@ const Cart = () => {
                     <div className="col-4">
                       <div className='d-flex justify-content-between align-items-center'>
                         <label htmlFor="" className='d-flex cart-product-price'>USD $<p className='mb-0'>{price}</p></label>
-                        <button className='cart-delete-btn'><MdDelete className='cart-delete-icon' /></button>
+                        <button onClick={(id) => deleteProduct(el.id)} className='cart-delete-btn'><MdDelete className='cart-delete-icon' /></button>
                       </div>
                     </div>
                   </div>

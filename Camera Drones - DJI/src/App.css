@@ -832,6 +832,7 @@
 .register-page {
   background-image: url(https://account.djicdn.com/img/banner-04.acb127a8.webp);
   background-size: cover;
+  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -839,6 +840,7 @@
 .login-page {
   background-image: url(https://account.djicdn.com/img/banner-03.442e57a9.webp);
   background-size: cover;
+  height: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -871,6 +873,11 @@
   padding: 7px 11px;
   font-size: 16px;
   letter-spacing: -.02em;
+}
+
+.login-form .form-error {
+  color: #d32029;
+  font-size: 12px;
 }
 
 .login-form a {

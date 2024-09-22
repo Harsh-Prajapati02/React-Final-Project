@@ -5616,22 +5616,5 @@
       "series": "Mavic 2 Enterprise"
     }
   ],
-  "cart": [
-    {
-      "id": 18,
-      "image": "https://se-cdn.djiits.com/tpc/uploads/spu/cover/fada49102504cc9f7c2052e2e6fbacac@xlarge.png",
-      "title": "DJI Mini 3 (DJI RC-N1)",
-      "price": 419,
-      "type": "main-product",
-      "series": "DJI Mini 3",
-      "slide1": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/86ad1a822fac2125868d2c31479446c6@ultra.jpg",
-      "slide2": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/52dfe417a9bbe1d573ae21bbd59ce056@ultra.jpg",
-      "slide3": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/59e042495f65f15ba246952670362105@ultra.jpg",
-      "slide4": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/a6c5e7c8525cdfc6503ad5152bd4135b@ultra.jpg",
-      "slide5": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/1af4e380773cb63f12d7cd2fc78a7e38@ultra.jpg",
-      "slide6": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/f49b5332ccd0c68e87d8fdb3ac72f0a2@ultra.jpg",
-      "slide7": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/e9a2771b1ab59c4773a50b7d671d0c7b@ultra.jpg",
-      "slide8": "https://se-cdn.djiits.com/tpc/uploads/carousel/image/114edbbdbee3674fc83141801eef9cca@ultra.jpg"
-    }
-  ]
+  "cart": []
 }
