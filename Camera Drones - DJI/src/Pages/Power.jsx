@@ -3,33 +3,59 @@ import axios from 'axios';
 import { useEffect, useState } from 'react'
 import Footer from '../Components/Footer';
 import { MdOutlineArrowForwardIos } from "react-icons/md";
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 
 const Power = () => {
   const [data, setData] = useState([]);
   const [order, setOrder] = useState(null);
   const [series, setSeries] = useState(null);
   const [type, setType] = useState(null);
+  const [search, setSearch] = useState(null);
+
+  // Multi-Level Filter
+  let [searchParams, setSearchParams] = useSearchParams();
+  const [category, setCategory] = useState(searchParams.getAll("category") || []);
 
   const getDataFromServer = () => {
     axios.get(`http://localhost:3000/power?`, {
-      params : {
-        _sort : "price",
-        _order : order,
-        series : series,
-        type : type,
+      params: {
+        _sort: "price",
+        _order: order,
+        series: searchParams.getAll("category") || [],
+        type: type,
+        q: search
       }
     })
       .then((res) => setData(res.data))
       .catch((err) => console.log(err))
   }
 
+  // For Series Filter
+  const handleChange = (e) => {
+
+    const { value } = e.target;
+    let filterValue = [...category]
+
+    if (filterValue.includes(value)) {
+      filterValue = filterValue.filter((el) => el != value)
+    } else {
+      filterValue.push(value);
+    }
+    setCategory(filterValue);
+
+    // if (e.target.checked) {
+    //   setSeries(e.target.value)
+    // }
+  }
+
   useEffect(() => {
     getDataFromServer();
-  }, [order, series, type])
+    setSearchParams({ category });
+  }, [order, series, type, search, category, searchParams])
 
   return (
     <>
+      {/* Main Section */}
       <div className="container product-section ps-0 pe-0 ps-sm-0 pe-sm-0 ps-xxl-5 pe-xxl-5">
         <div className="product-sec-title p-4 ps-sm-2 pe-sm-2 d-flex justify-content-center p-sm-4" style={{ borderBottom: "2px solid #f5f5f5" }}>
           <h1>Shop Portable Power Station</h1>
@@ -52,11 +78,11 @@ const Power = () => {
                   <div id="flush-collapseOne" className="accordion-collapse collapse">
                     <div className="accordion-body ps-0 pe-0 pt-1 pb-1">
                       <div className='pt-2 pb-2 d-flex align-items-center'>
-                        <input className='me-2' value={"DJI Power 1000"} type="radio"  onChange={(e) => setSeries(e.target.value)} name="product-series"/>
+                        <input className='me-2' value={"DJI Power 1000"} type="checkbox" onChange={(e) => handleChange(e)} name="product-series" checked={category.includes("DJI Power 1000")} />
                         <label htmlFor="">DJI Power 1000</label>
                       </div>
                       <div className='pt-2 pb-2 d-flex'>
-                        <input className='me-2' value={"DJI Power 500"} type="radio"  onChange={(e) => setSeries(e.target.value)} name="product-series"/>
+                        <input className='me-2' value={"DJI Power 500"} type="checkbox" onChange={(e) => handleChange(e)} name="product-series" checked={category.includes("DJI Power 500")} />
                         <label htmlFor="">DJI Power 500</label>
                       </div>
                     </div>
@@ -67,19 +93,20 @@ const Power = () => {
             <div className='pt-3 pb-3 ps-1 ps-sm-0' style={{ borderBottom: "2px solid #f5f5f5" }}>
               <h6 className='mb-3'>Product Types</h6>
               <div className='pt-2 pb-2 d-flex align-items-center'>
-                <input className='me-2' value={"main-product"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type"/>
+                <input className='me-2' value={"main-product"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type" />
                 <label htmlFor="">Main Products</label>
               </div>
               <div className='pt-2 pb-2 d-flex align-items-center'>
-                <input className='me-2' value={"accessory"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type"/>
+                <input className='me-2' value={"accessory"} type="radio" onChange={(e) => setType(e.target.value)} name="product-type" />
                 <label htmlFor="">Accessory</label>
               </div>
             </div>
           </div>
           <div className="product-list col-12 p-4 col-sm-9 pe-sm-2 ps-sm-2 ps-xl-3 pe-xxl-4 pb-xl-5">
             <div className="d-flex flex-column flex-sm-row justify-content-sm-between align-items-sm-center ps-2 pe-2 mb-3">
-              <p className='mb-3 mb-sm-0'>{data.length} Item(s) Found</p>
-              <div className="sort p-1 ps-3 pe-3">
+              <p className='col-5 col-sm-5 mb-3 mb-sm-0 col-lg-2'>{data.length} Item(s) Found</p>
+              <input onChange={(e) => setSearch(e.target.value)} type="search" placeholder='Search dji.com...' className='search ps-2 col-12 col-sm-7 mb-3 mb-sm-0 col-lg-5 col-xl-4' />
+              <div className="sort p-1 ps-3 pe-3 mt-sm-3 mt-lg-0">
                 <select name="" id="" onChange={(e) => setOrder(e.target.value)}>
                   <option value="">Sort by: Recommendation</option>
                   <option value="asc">Price from low to high</option>
@@ -93,7 +120,7 @@ const Power = () => {
                   <div key={el.id} className="product col-12 ps-2 pe-2 mb-3 col-sm-6 col-lg-4">
                     <div style={{ backgroundColor: "#f5f5f5" }}>
                       <Link className='d-flex justify-content-center' to={`/power-description/${el.id}`}>
-                      <img className='product-img' src={el.image} alt="" />
+                        <img className='product-img' src={el.image} alt="" />
                       </Link>
                       <div className="p-3 pt-0 p-sm-4">
                         <h6>{el.title}</h6>
@@ -111,6 +138,7 @@ const Power = () => {
         </div>
       </div>
 
+      {/* Footer */}
       <Footer />
     </>
   )

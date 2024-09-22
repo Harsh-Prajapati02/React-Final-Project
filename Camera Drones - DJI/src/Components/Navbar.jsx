@@ -51,23 +51,25 @@ function CollapsibleExample() {
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "14px" }}>Accessories</Nav.Link>
           </Nav>
           <Nav className='d-none d-lg-flex'>
-            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "20px" }}><FiSearch /></Nav.Link>
+            <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2' style={{ color: "#303233", fontSize: "20px" }}>
+              <NavLink to={"/store"} style={{color:"#303233"}}><FiSearch /></NavLink>
+            </Nav.Link>
             <Nav.Link className='nav-link me-lg-2 p-3 pt-2 pb-2 ps-sm-0 pe-sm-0 p-lg-2'>
               <NavLink className='navlink' to={"/cart"} style={{ color: "#303233", fontSize: "20px" }}><BsCart2 /></NavLink>
             </Nav.Link>
             {/* <Nav.Link className='nav-link p-3 pt-2 pb-2 p-lg-2 ps-sm-0 pe-sm-0' >
               <NavLink className="navlink" to={"/login"} style={{ fontSize: "22px" }}><FiUser /></NavLink>
             </Nav.Link> */}
-            <div class="dropdown">
+            <div className="dropdown">
               <Nav.Link id="dropdownMenuButton1" data-bs-toggle="dropdown" className='nav-link account p-3 pt-2 pb-2 p-lg-2 ps-sm-0 pe-sm-0' style={{ fontSize: "22px" }}>
-                <FiUser id='account'/>
+                <FiUser id='account' />
               </Nav.Link>
-              <ul class="dropdown-menu">
+              <ul className="dropdown-menu">
                 <li>
-                    <NavLink className="navlink dropdown-item pt-2 pb-2" to={"/login"} >Sign In</NavLink>
+                  <NavLink className="navlink dropdown-item pt-2 pb-2" to={"/login"} >Sign In</NavLink>
                 </li>
                 <li>
-                    <NavLink className="navlink dropdown-item pt-2 pb-2" to={"/register"} >Sign Up</NavLink>
+                  <NavLink className="navlink dropdown-item pt-2 pb-2" to={"/register"} >Sign Up</NavLink>
                 </li>
               </ul>
             </div>

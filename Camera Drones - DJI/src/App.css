@@ -494,6 +494,15 @@
   font-size: 14px;
 }
 
+.product-list .search {
+  border: 2px solid lightgray;
+  height: 35px;
+  font-size: 14px;
+  border-radius: 5px;
+  outline: none;
+  color: #000000a6;
+}
+
 .product-list .sort {
   background-color: #f5f5f5;
   border-radius: 20px;
@@ -1198,6 +1207,11 @@
 
   .product-img {
     height: 183px;
+  }
+
+  .filter {
+    position: relative;
+    height: 100%;
   }
 
   /* Description Page */
