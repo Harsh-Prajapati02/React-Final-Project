@@ -44,17 +44,17 @@ const Cart = () => {
 
   return <>
     <div className='container-fluid cart-top-text pt-1 pb-1'>
-      <div className="container p-2 ps-5 pe-5">
+      <div className="container p-1 pt-2 pb-2 p-sm-0 pt-sm-2 pb-sm-2 ps-xxl-5 pe-xxl-5 p-xxl-2">
         <p className='mb-0'>Due to safe transport and handling procedures, orders containing batteries cannot be shipped to Guam addresses. Orders containing power stations and related accessories can not be shipped to island addresses such as Hawaii, Alaska, Guam, American Samoa, United States Minor Outlying Islands, and Virgin Islands. Thank you for your understanding.</p>
       </div>
     </div>
 
     {data.length == 0 ? (
-      <div className="cart-content container p-5">
+      <div className="cart-content container p-3 p-sm-1 pt-sm-4 pb-sm-4 p-xxl-5">
         <h1 className='mb-3'>Your Shopping Cart is Empty</h1>
-        <div className='d-flex mb-5'>
-          <p className='mb-0'>Your cart is empty, log in to synchronize the items in your shopping cart.</p>
-          <Link className='cart-login-btn ms-4 d-flex align-items-center' to={"/login"}>Log In Now<MdKeyboardArrowRight className='ms-1' />
+        <div className='d-flex mb-4 flex-column flex-sm-row mb-lg-5'>
+          <p className='mb-2 mb-sm-0'>Your cart is empty, log in to synchronize the items in your shopping cart.</p>
+          <Link className='cart-login-btn ms-0 ms-sm-4 d-flex align-items-center' to={"/login"}>Log In Now<MdKeyboardArrowRight className='ms-1' />
           </Link>
         </div>
         <Link to={"/store"} style={{ textDecoration: "none" }}>
@@ -62,30 +62,30 @@ const Cart = () => {
           </button>
         </Link>
       </div>) :
-      (<div className="cart-content container p-5 pt-4">
+      (<div className="cart-content container p-3 pt-4 p-sm-0 pt-sm-4 pb-sm-4 p-xxl-5 pt-xxl-4">
         <h1 className='mb-3'>My Shopping Cart</h1>
-        <div className='d-flex mb-4'>
+        <div className='d-flex flex-column flex-sm-row mb-4'>
           <p className='mb-0'>Log in to synchronize the items in your shopping cart.</p>
-          <Link className='cart-login-btn ms-4 d-flex align-items-center' to={"/login"}>Log In Now<MdKeyboardArrowRight className='ms-1' />
+          <Link className='cart-login-btn ms-0 ms-sm-2 d-flex align-items-center' to={"/login"}>Log In Now<MdKeyboardArrowRight className='ms-1' />
           </Link>
         </div>
         <div className="cart-product container p-0">
           <div className="cart-product-header" style={{ borderBottom: "2px solid #f0f0f0" }}>
-            <div className="row justify-content-between pb-4">
-              <div className="col-1 p-0 ps-3">
+            <div className="row justify-content-between pb-2 pb-sm-3 pb-xxl-4">
+              <div className="col-1 p-0 ps-3 col-xxl-1">
                 <div>
                   <label htmlFor="">Item</label>
                 </div>
               </div>
-              <div className="col-6">
+              <div className="col-11 ps-5 col-sm-9 ps-sm-4 col-md-7 ps-md-0 col-xxl-6 ps-xxl-0">
                 <div className="row justify-content-end">
-                  <div className="col-3">
+                  <div className="col-4 col-sm-3">
                     <label htmlFor="">Item Price</label>
                   </div>
                   <div className="col-3">
                     <label htmlFor="">Quantity</label>
                   </div>
-                  <div className="col-4">
+                  <div className="col-3 col-sm-4">
                     <label htmlFor="">Price</label>
                   </div>
                 </div>
@@ -94,34 +94,34 @@ const Cart = () => {
           </div>
           <div className="cart-product-detail container ps-0 pe-0">
             {data.map((el) => (
-              <div key={el.id} className="row justify-content-between align-items-center p-4 ps-0 pe-0" style={{ borderBottom: "2px solid #f0f0f0" }}>
+              <div key={el.id} className="row justify-content-between flex-nowrap align-items-center p-2 p-xxl-4 ps-xxl-0 pe-xxl-2" style={{ borderBottom: "2px solid #f0f0f0" }}>
                 <div className="col-1 p-0">
                   <div className='cart-product-image'>
-                    <img src={el.image} height={128} alt="" />
+                    <img src={el.image} alt="" />
                   </div>
                 </div>
-                <div className="col-4">
+                <div className="col-6 ps-4 ms-2 pe-4 me-5 m-sm-0 col-sm-4 ps-sm-0 pe-sm-5 me-sm-2 col-md-5 col-xxl-4 me-xxl-0 ps-xxl-2">
                   <Link className='cart-product-title'>{el.title}</Link>
                 </div>
-                <div className="col-6 pe-0 ps-0">
-                  <div className="row justify-content-end align-items-center">
-                    <div className="col-3 ps-3">
+                <div className="col-8 pe-0 ps-0 col-sm-6 col-md-5 col-xxl-6">
+                  <div className="row justify-content-end align-items-center flex-nowrap">
+                    <div className="ps-2 col-4 col-sm-4 ps-sm-3 pe-0 ps-md-3 col-xxl-3 pe-xxl-2 ps-xxl-3">
                       <label htmlFor="" className='d-flex'>USD $<p className='mb-0'>{el.price}</p></label>
                     </div>
-                    <div className="col-3 pe-5">
+                    <div className="ps-0 pe-2 pe-sm-0 col-4 pe-md-2 ps-md-2 pe-lg-4 pe-xl-5 col-xxl-3">
                       <div className='d-flex justify-content-between align-items-center cart-product-qty'>
                         <button onClick={() => {
                           setCount(count - 1)
                           setPrice(price - el.price)
-                        }} disabled={count == 1} className='ps-2 pe-2 p-1' style={{ borderTopLeftRadius: "5px", borderBottomLeftRadius: "5px", borderRight: "1px solid gray" }}><PiMinusThin /></button>
+                        }} disabled={count == 1} className='ps-1 pe-1 ps-sm-2 pe-sm-2 p-1' style={{ borderTopLeftRadius: "5px", borderBottomLeftRadius: "5px", borderRight: "1px solid gray" }}><PiMinusThin /></button>
                         <p className='mb-0'>{count}</p>
                         <button onClick={() => {
                           setCount(count + 1)
                           setPrice(price + el.price)
-                        }} className='ps-2 pe-2 p-1' style={{ borderTopRightRadius: "5px", borderBottomRightRadius: "5px", borderLeft: "1px solid gray" }}><PiPlusThin /></button>
+                        }} className='ps-1 pe-1 ps-sm-2 pe-sm-2 p-1' style={{ borderTopRightRadius: "5px", borderBottomRightRadius: "5px", borderLeft: "1px solid gray" }}><PiPlusThin /></button>
                       </div>
                     </div>
-                    <div className="col-4">
+                    <div className="col-7 col-sm-6 col-xxl-4">
                       <div className='d-flex justify-content-between align-items-center'>
                         <label htmlFor="" className='d-flex cart-product-price'>USD $<p className='mb-0'>{price}</p></label>
                         <button onClick={(id) => deleteProduct(el.id)} className='cart-delete-btn'><MdDelete className='cart-delete-icon' /></button>
@@ -179,7 +179,7 @@ const Cart = () => {
               <div>
                 <label className='d-flex align-items-center mb-3'>CART SUBTOTAL: <h4 className='ms-3 mb-0'>USD $2,199</h4></label>
                 <div className='d-flex justify-content-end'>
-                  <span className='me-2'>Tax :</span><p className='mb-0 d-flex align-items-center'>Calculated at checkout<BsQuestionCircle className='ms-2' /></p>
+                  <span className='me-0 me-sm-2'>Tax:</span><p className='mb-0 d-flex align-items-center'>Calculated at checkout<BsQuestionCircle className='ms-2' /></p>
                 </div>
               </div>
             </div>
@@ -198,17 +198,17 @@ const Cart = () => {
           </div>
         </div>
 
-        <div className='cart-botton-btns pt-4 d-flex justify-content-between'>
+        <div className='cart-botton-btns pt-4 d-flex justify-content-between flex-column flex-lg-row'>
           <Link to={"/store"} style={{ textDecoration: "none" }}>
-            <button className='cart-shop-btn d-flex align-items-center'>Continue Shopping<MdKeyboardArrowRight />
+            <button className='cart-shop-btn d-flex w-100 align-items-center justify-content-center mb-2 mb-lg-0'>Continue Shopping<MdKeyboardArrowRight />
             </button>
           </Link>
-          <div className='d-flex'>
-            <button className='cart-checkout-btn1 d-flex align-items-center me-3'>
+          <div className='d-flex flex-column flex-lg-row'>
+            <button className='cart-checkout-btn1 d-flex align-items-center justify-content-center me-0 mb-2 me-lg-3 mb-lg-0'>
               <img className='me-2' src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAxcHgiIGhlaWdodD0iMzIiIHZpZXdCb3g9IjAgMCAxMDEgMzIiIHByZXNlcnZlQXNwZWN0UmF0aW89InhNaW5ZTWluIG1lZXQiIHhtbG5zPSJodHRwOiYjeDJGOyYjeDJGO3d3dy53My5vcmcmI3gyRjsyMDAwJiN4MkY7c3ZnIj48cGF0aCBmaWxsPSIjMDAzMDg3IiBkPSJNIDEyLjIzNyAyLjggTCA0LjQzNyAyLjggQyAzLjkzNyAyLjggMy40MzcgMy4yIDMuMzM3IDMuNyBMIDAuMjM3IDIzLjcgQyAwLjEzNyAyNC4xIDAuNDM3IDI0LjQgMC44MzcgMjQuNCBMIDQuNTM3IDI0LjQgQyA1LjAzNyAyNC40IDUuNTM3IDI0IDUuNjM3IDIzLjUgTCA2LjQzNyAxOC4xIEMgNi41MzcgMTcuNiA2LjkzNyAxNy4yIDcuNTM3IDE3LjIgTCAxMC4wMzcgMTcuMiBDIDE1LjEzNyAxNy4yIDE4LjEzNyAxNC43IDE4LjkzNyA5LjggQyAxOS4yMzcgNy43IDE4LjkzNyA2IDE3LjkzNyA0LjggQyAxNi44MzcgMy41IDE0LjgzNyAyLjggMTIuMjM3IDIuOCBaIE0gMTMuMTM3IDEwLjEgQyAxMi43MzcgMTIuOSAxMC41MzcgMTIuOSA4LjUzNyAxMi45IEwgNy4zMzcgMTIuOSBMIDguMTM3IDcuNyBDIDguMTM3IDcuNCA4LjQzNyA3LjIgOC43MzcgNy4yIEwgOS4yMzcgNy4yIEMgMTAuNjM3IDcuMiAxMS45MzcgNy4yIDEyLjYzNyA4IEMgMTMuMTM3IDguNCAxMy4zMzcgOS4xIDEzLjEzNyAxMC4xIFoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDAzMDg3IiBkPSJNIDM1LjQzNyAxMCBMIDMxLjczNyAxMCBDIDMxLjQzNyAxMCAzMS4xMzcgMTAuMiAzMS4xMzcgMTAuNSBMIDMwLjkzNyAxMS41IEwgMzAuNjM3IDExLjEgQyAyOS44MzcgOS45IDI4LjAzNyA5LjUgMjYuMjM3IDkuNSBDIDIyLjEzNyA5LjUgMTguNjM3IDEyLjYgMTcuOTM3IDE3IEMgMTcuNTM3IDE5LjIgMTguMDM3IDIxLjMgMTkuMzM3IDIyLjcgQyAyMC40MzcgMjQgMjIuMTM3IDI0LjYgMjQuMDM3IDI0LjYgQyAyNy4zMzcgMjQuNiAyOS4yMzcgMjIuNSAyOS4yMzcgMjIuNSBMIDI5LjAzNyAyMy41IEMgMjguOTM3IDIzLjkgMjkuMjM3IDI0LjMgMjkuNjM3IDI0LjMgTCAzMy4wMzcgMjQuMyBDIDMzLjUzNyAyNC4zIDM0LjAzNyAyMy45IDM0LjEzNyAyMy40IEwgMzYuMTM3IDEwLjYgQyAzNi4yMzcgMTAuNCAzNS44MzcgMTAgMzUuNDM3IDEwIFogTSAzMC4zMzcgMTcuMiBDIDI5LjkzNyAxOS4zIDI4LjMzNyAyMC44IDI2LjEzNyAyMC44IEMgMjUuMDM3IDIwLjggMjQuMjM3IDIwLjUgMjMuNjM3IDE5LjggQyAyMy4wMzcgMTkuMSAyMi44MzcgMTguMiAyMy4wMzcgMTcuMiBDIDIzLjMzNyAxNS4xIDI1LjEzNyAxMy42IDI3LjIzNyAxMy42IEMgMjguMzM3IDEzLjYgMjkuMTM3IDE0IDI5LjczNyAxNC42IEMgMzAuMjM3IDE1LjMgMzAuNDM3IDE2LjIgMzAuMzM3IDE3LjIgWiI+PC9wYXRoPjxwYXRoIGZpbGw9IiMwMDMwODciIGQ9Ik0gNTUuMzM3IDEwIEwgNTEuNjM3IDEwIEMgNTEuMjM3IDEwIDUwLjkzNyAxMC4yIDUwLjczNyAxMC41IEwgNDUuNTM3IDE4LjEgTCA0My4zMzcgMTAuOCBDIDQzLjIzNyAxMC4zIDQyLjczNyAxMCA0Mi4zMzcgMTAgTCAzOC42MzcgMTAgQyAzOC4yMzcgMTAgMzcuODM3IDEwLjQgMzguMDM3IDEwLjkgTCA0Mi4xMzcgMjMgTCAzOC4yMzcgMjguNCBDIDM3LjkzNyAyOC44IDM4LjIzNyAyOS40IDM4LjczNyAyOS40IEwgNDIuNDM3IDI5LjQgQyA0Mi44MzcgMjkuNCA0My4xMzcgMjkuMiA0My4zMzcgMjguOSBMIDU1LjgzNyAxMC45IEMgNTYuMTM3IDEwLjYgNTUuODM3IDEwIDU1LjMzNyAxMCBaIj48L3BhdGg+PHBhdGggZmlsbD0iIzAwOWNkZSIgZD0iTSA2Ny43MzcgMi44IEwgNTkuOTM3IDIuOCBDIDU5LjQzNyAyLjggNTguOTM3IDMuMiA1OC44MzcgMy43IEwgNTUuNzM3IDIzLjYgQyA1NS42MzcgMjQgNTUuOTM3IDI0LjMgNTYuMzM3IDI0LjMgTCA2MC4zMzcgMjQuMyBDIDYwLjczNyAyNC4zIDYxLjAzNyAyNCA2MS4wMzcgMjMuNyBMIDYxLjkzNyAxOCBDIDYyLjAzNyAxNy41IDYyLjQzNyAxNy4xIDYzLjAzNyAxNy4xIEwgNjUuNTM3IDE3LjEgQyA3MC42MzcgMTcuMSA3My42MzcgMTQuNiA3NC40MzcgOS43IEMgNzQuNzM3IDcuNiA3NC40MzcgNS45IDczLjQzNyA0LjcgQyA3Mi4yMzcgMy41IDcwLjMzNyAyLjggNjcuNzM3IDIuOCBaIE0gNjguNjM3IDEwLjEgQyA2OC4yMzcgMTIuOSA2Ni4wMzcgMTIuOSA2NC4wMzcgMTIuOSBMIDYyLjgzNyAxMi45IEwgNjMuNjM3IDcuNyBDIDYzLjYzNyA3LjQgNjMuOTM3IDcuMiA2NC4yMzcgNy4yIEwgNjQuNzM3IDcuMiBDIDY2LjEzNyA3LjIgNjcuNDM3IDcuMiA2OC4xMzcgOCBDIDY4LjYzNyA4LjQgNjguNzM3IDkuMSA2OC42MzcgMTAuMSBaIj48L3BhdGg+PHBhdGggZmlsbD0iIzAwOWNkZSIgZD0iTSA5MC45MzcgMTAgTCA4Ny4yMzcgMTAgQyA4Ni45MzcgMTAgODYuNjM3IDEwLjIgODYuNjM3IDEwLjUgTCA4Ni40MzcgMTEuNSBMIDg2LjEzNyAxMS4xIEMgODUuMzM3IDkuOSA4My41MzcgOS41IDgxLjczNyA5LjUgQyA3Ny42MzcgOS41IDc0LjEzNyAxMi42IDczLjQzNyAxNyBDIDczLjAzNyAxOS4yIDczLjUzNyAyMS4zIDc0LjgzNyAyMi43IEMgNzUuOTM3IDI0IDc3LjYzNyAyNC42IDc5LjUzNyAyNC42IEMgODIuODM3IDI0LjYgODQuNzM3IDIyLjUgODQuNzM3IDIyLjUgTCA4NC41MzcgMjMuNSBDIDg0LjQzNyAyMy45IDg0LjczNyAyNC4zIDg1LjEzNyAyNC4zIEwgODguNTM3IDI0LjMgQyA4OS4wMzcgMjQuMyA4OS41MzcgMjMuOSA4OS42MzcgMjMuNCBMIDkxLjYzNyAxMC42IEMgOTEuNjM3IDEwLjQgOTEuMzM3IDEwIDkwLjkzNyAxMCBaIE0gODUuNzM3IDE3LjIgQyA4NS4zMzcgMTkuMyA4My43MzcgMjAuOCA4MS41MzcgMjAuOCBDIDgwLjQzNyAyMC44IDc5LjYzNyAyMC41IDc5LjAzNyAxOS44IEMgNzguNDM3IDE5LjEgNzguMjM3IDE4LjIgNzguNDM3IDE3LjIgQyA3OC43MzcgMTUuMSA4MC41MzcgMTMuNiA4Mi42MzcgMTMuNiBDIDgzLjczNyAxMy42IDg0LjUzNyAxNCA4NS4xMzcgMTQuNiBDIDg1LjczNyAxNS4zIDg1LjkzNyAxNi4yIDg1LjczNyAxNy4yIFoiPjwvcGF0aD48cGF0aCBmaWxsPSIjMDA5Y2RlIiBkPSJNIDk1LjMzNyAzLjMgTCA5Mi4xMzcgMjMuNiBDIDkyLjAzNyAyNCA5Mi4zMzcgMjQuMyA5Mi43MzcgMjQuMyBMIDk1LjkzNyAyNC4zIEMgOTYuNDM3IDI0LjMgOTYuOTM3IDIzLjkgOTcuMDM3IDIzLjQgTCAxMDAuMjM3IDMuNSBDIDEwMC4zMzcgMy4xIDEwMC4wMzcgMi44IDk5LjYzNyAyLjggTCA5Ni4wMzcgMi44IEMgOTUuNjM3IDIuOCA5NS40MzcgMyA5NS4zMzcgMy4zIFoiPjwvcGF0aD48L3N2Zz4" height={23} alt="" />
               Checkout
             </button>
-            <button className='cart-checkout-btn2 d-flex align-items-center'>Check Out
+            <button className='cart-checkout-btn2 d-flex align-items-center justify-content-center'>Check Out
             </button>
           </div>
         </div>

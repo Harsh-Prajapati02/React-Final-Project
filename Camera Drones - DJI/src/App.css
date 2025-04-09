@@ -530,6 +530,7 @@
 
 .product-img {
   height: 272.66px;
+  /* height: 100vh; */
 }
 
 .product span {
@@ -677,6 +678,7 @@
   color: #232526;
   font-weight: 700;
   line-height: 18px;
+  text-align: justify;
 }
 
 .cart-content h1 {
@@ -685,8 +687,8 @@
   font-weight: 600;
 }
 
-.content p {
-  color: #3b3e40;
+.cart-content p {
+  color: #6c7073;
   font-size: 14px;
 }
 
@@ -694,6 +696,7 @@
   color: #0060ef;
   font-size: 14px;
   text-decoration: none;
+  font-weight: 600;
 }
 
 .cart-content .cart-shop-btn {
@@ -716,6 +719,10 @@
   color: #6c7073;
   font-size: 14px;
   font-weight: 600;
+}
+
+.cart-product-detail .cart-product-image img {
+  height: 128px;
 }
 
 .cart-product-detail .cart-product-title {
@@ -1093,39 +1100,39 @@
   }
 
   .description-image1 {
-    height: 210px;
+    height: 328px;
   }
 
   .description-image2 {
-    height: 169.1px;
+    height: 263px;
   }
 
   .description-image3 {
-    height: 117.5px;
+    height: 183px;
   }
 
   .description-image4 {
-    height: 270px;
+    height: 422px;
   }
 
   .description-image5 {
-    height: 169px;
+    height: 263px;
   }
 
   .description-image6 {
-    height: 124.3px;
+    height: 194px;
   }
 
   .description-image7 {
-    height: 259px;
+    height: 403px;
   }
 
   .description-image8 {
-    height: 168px;
+    height: 262px;
   }
 
   .description-image9 {
-    height: 144px;
+    height: 225px;
   }
 
   .description-images-title {
@@ -1134,6 +1141,65 @@
 
   .add-to-cart-btn {
     padding: 8px 80px;
+  }
+
+  /* Cart Page */
+  .cart-top-text p {
+    font-size: 10px;
+    font-weight: 600;
+  }
+
+  .cart-content h1 {
+    font-size: 20px;
+  }
+
+  .cart-content p {
+    font-size: 13px;
+  }
+
+  .cart-login-btn {
+    font-size: 13px;
+  }
+
+  .cart-product-header label {
+    font-size: 13px;
+  }
+
+  .cart-product-detail {
+    overflow-x: scroll;
+  }
+
+  .cart-product-detail .cart-product-image img {
+    height: 50px;
+  }
+
+  .cart-product-detail .cart-product-title {
+    font-size: 14px;
+  }
+
+  .cart-product-detail label {
+    font-size: 13px;
+  }
+
+  .cart-product-detail p {
+    font-size: 13px;
+  }
+
+  .cart-bottom-content p {
+    font-size: 13px;
+  }
+
+  .cart-bottom-content span {
+    font-size: 13px;
+  }
+
+  .cart-bottom-content label {
+    font-size: 16px;
+  }
+
+  .cart-bottom-content h4 {
+    font-size: 18px;
+
   }
 }
 
@@ -1276,6 +1342,28 @@
   .description-images-title {
     font-size: 26px;
   }
+
+  /* Cart Page */
+    .cart-content h1 {
+      font-size: 24px;
+    }
+
+  .cart-product-detail .cart-product-image img {
+    height: 50px;
+  }
+
+  .cart-product-detail .cart-product-title {
+    font-size: 14px;
+  }
+
+  .cart-bottom-content label {
+    font-size: 17px;
+  }
+
+  .cart-bottom-content h4 {
+    font-size: 17px;
+
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1416,6 +1504,28 @@
   .description-image9 {
     height: 357px;
   }
+
+  /* Cart Page */
+  .cart-content h1 {
+    font-size: 24px;
+  }
+
+  .cart-product-detail .cart-product-image img {
+    height: 70px;
+  }
+
+  .cart-product-detail .cart-product-title {
+    font-size: 14px;
+  }
+
+  .cart-bottom-content label {
+    font-size: 17px;
+  }
+
+  .cart-bottom-content h4 {
+    font-size: 17px;
+
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -1545,6 +1655,28 @@
   .description-image9 {
     height: 357px;
   }
+
+  /* Cart Page */
+  .cart-content h1 {
+    font-size: 24px;
+  }
+
+  .cart-product-detail .cart-product-image img {
+    height: 100px;
+  }
+
+  .cart-product-detail .cart-product-title {
+    font-size: 14px;
+  }
+
+  .cart-bottom-content label {
+    font-size: 17px;
+  }
+
+  .cart-bottom-content h4 {
+    font-size: 17px;
+
+  }
 }
 
 @media (min-width: 1200px) and (max-width: 1499px) {
@@ -1600,5 +1732,27 @@
   /* Hero Vertical Wrapper */
   .hero-vertical-wrapper-title h1 {
     font-size: 35px;
+  }
+
+  /* Cart Page */
+  .cart-content h1 {
+    font-size: 28px;
+  }
+
+  .cart-product-detail .cart-product-image img {
+    height: 120px;
+  }
+
+  .cart-product-detail .cart-product-title {
+    font-size: 16px;
+  }
+
+  .cart-bottom-content label {
+    font-size: 22px;
+  }
+
+  .cart-bottom-content h4 {
+    font-size: 22px;
+
   }
 }
